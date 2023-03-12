@@ -1,5 +1,6 @@
 <template>
-  <div class="header">
+  <div class="footer">
+    <img class="footer-icon" src="@/assets/img/icon/yangming.png" alt="yangming">
   </div>
 </template>
 
@@ -11,13 +12,21 @@
 
 <style lang="scss" scoped>
 
-.header {
+.footer {
+  height: 120px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  &-icon {
+    width: 250px;
+  }
 
 }
 
 @media( max-width: 1023px ){
 
-.header {
+.footer {
   
 
 }

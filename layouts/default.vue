@@ -30,9 +30,9 @@ time, mark, audio, video {
 	margin: 0;
 	padding: 0;
 	border: 0;
-	font-size: 12px;
+	font-size: 16px;
   letter-spacing: 1px;
-  color: #5E5B52;
+  color: white;
 	vertical-align: baseline;
   line-height: 1.3;
 }
@@ -67,7 +67,7 @@ body {
   margin: 0px;
   padding: 0px;
   font-family: 'Noto Sans TC', 'Noto Sans SC', 'Lato' ,sans-serif;
-  background-color: #f0f0f0;
+  background-color: #c5d0e1;
   // font-family: 'GoudyOldStyle,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica,Arial,PingFang TC,Hiragino Sans GB,Microsoft JhengHei,sans-serif!important';
 }
 
