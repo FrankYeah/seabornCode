@@ -21,11 +21,11 @@
     </div>
     <div class="vol-rotate">
       <div class="vol-rotate-outer">
-        <div class="vol-rotate-box">
+        <router-link to="/stars/01" class="vol-rotate-box">
           <div class="vol-rotate-img"></div>
           <div class="vol-rotate-head">每座燈塔都是獨一無二的眼睛</div>
           <div class="vol-rotate-text">「聽說那兒有個燈塔，失戀的人都喜歡去，把不開心的東西留下。」 這是電影《春光乍泄》中，黎耀輝（梁朝偉）曾說過的話...</div>
-        </div>
+        </router-link>
       </div>
       <div class="vol-rotate-bg">
       </div>
