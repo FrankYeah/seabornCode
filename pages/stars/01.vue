@@ -130,10 +130,25 @@
   }
 
   &-right {
+    position: relative;
     width: 70%;
     padding: 40px 40px 70px;
     border: 1px solid white;
+    border-top: 0px;
     border-left: 0px;
+
+    &::before {
+      // content: '';
+      // position: absolute;
+      // top: 0px;
+      // left: 0px;
+      // width: 100%;
+      // height: 50px;
+      // background-color: red;
+      // border-top-left-radius: 50%;
+      // border-top-right-radius: 50%;
+      // border-top: 1px solid white;
+    }
 
     &-img {
       width: 500px;
