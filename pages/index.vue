@@ -1,10 +1,14 @@
 <template>
   <div class="index">
+
     <div class="index-star">
-      <div class="index-star-text">仰望北極星｜尋找人與時代的定位</div>
+      <nuxt-link to="/vol-star">
+        <div class="index-star-text">仰望北極星｜尋找人與時代的定位</div>
+      </nuxt-link>
     </div>
     <div class="index-flavor"></div>
     <div class="index-bg"></div>
+
     <div id="about" class="index-about">
       <div class="index-about-head">關於《 seaborn 》</div>
       <div class="index-about-text">
@@ -16,6 +20,7 @@
         但我們不想僅僅在陸地上談論海，而是打算航海。以這座海港城市作為起點與歸屬，航向世界、航向未知，以不怕犯難的冒險精神前行，這也是刊物取名《seaborn》的由來。
       </div>
     </div>
+
     <div id="contact" class="index-contact">
       <div class="index-contact-title">聯絡我們</div>
       <div class="index-contact-des">
@@ -46,45 +51,100 @@
 .index {
 
   &-star {
+    position: relative;
+    width: 100%;
+    height: 600px;
+    margin-top: 50px;
+    background-image: url('../assets/img/index/vol_one.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: center;
+    background-position-y: center;
 
     &-text {
+      position: absolute;
+      top: 200px;
+      right: 100px;
+      font-size: 28px;
 
+      &:hover {
+        opacity: 0.8;
+      }
     }
 
   }
 
   &-flavor {
-    
+    position: relative;
+    top: -110px;
+    width: 100%;
+    height: 600px;
+    background-image: url('../assets/img/index/vol_two.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: center;
+    background-position-y: center;
   }
 
   &-bg {
-    
+    width: 100%;
+    height: 300px;
+    background-image: url('../assets/img/bg/blue_medium.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: center;
+    background-position-y: center;
   }
 
   &-about {
+    position: relative;
+    top: -200px;
+    width: 90vw;
+    margin: auto;
+    padding: 50px 50px 150px;
+    background-image: url('../assets/img/bg/blue_big.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: center;
+    background-position-y: bottom;
 
     &-head {
-
+      font-size: 28px;
     }
 
     &-text {
-
+      margin-top: 20px;
+      font-size: 24px;
+      line-height: 1.5;
+      letter-spacing: 1.4px;
     }
     
   }
 
   &-contact {
+    width: 90vw;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    margin: -200px auto 50px;
+    padding: 300px 0px 0px;
+    background-image: url('../assets/img/index/contact_bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: center;
+    background-position-y: top;
 
     &-title {
-
+      font-size: 28px;
     }
 
     &-des {
-
+      margin: 0px 30px;
+      font-size: 24px;
     }
 
     &-text {
-
+      margin-top: 10px;
     }
 
     &-social {
@@ -94,7 +154,13 @@
       }
 
       &-icon {
+        width: 50px;
+        height: 50px;
+        margin-bottom: 20px;
 
+        &:hover {
+          opacity: 0.8;
+        }
       }
     }
   }

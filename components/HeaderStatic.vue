@@ -51,6 +51,10 @@
 
   &-logo {
     width: 200px;
+
+    &:hover {
+      opacity: 0.8;
+    }
   }
 
   &-row {
@@ -65,6 +69,10 @@
   &-text {
     margin: 0px 4px;
     font-size: 20px;
+
+    &:hover {
+      opacity: 0.8;
+    }
   }
 }
 
