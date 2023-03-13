@@ -51,6 +51,7 @@
         </div>
       </div>
     </div>
+    <!-- component -->
   </div>
 </template>
 
@@ -68,8 +69,7 @@
     width: 100%;
     height: 200px;
     margin-top: 50px;
-    transform: rotate(180deg);
-    background-image: url('../../assets/img/bg/grey_small.png');
+    background-image: url('../../assets/img/bg/brown_long.png');
     background-repeat: no-repeat;
     background-size: cover;
     background-position-x: center;
@@ -78,6 +78,7 @@
 
   &-outer {
     margin: 0px auto 50px;
+    padding-bottom: 50px;
     background-color: #595757;
   }
 
@@ -90,8 +91,13 @@
 
   &-left {
     width: 30%;
-    padding: 40px;
-    background-color: #999999;
+    padding: 120px 40px 40px;
+    // background-color: #999999;
+    background-image: url('../../assets/img/bg/grey_long.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: center;
+    background-position-y: top;
 
     &-title {
       font-size: 28px;
@@ -132,23 +138,9 @@
   &-right {
     position: relative;
     width: 70%;
-    padding: 40px 40px 70px;
+    margin-top: 14px;
+    padding: 90px 40px 70px;
     border: 1px solid white;
-    border-top: 0px;
-    border-left: 0px;
-
-    &::before {
-      // content: '';
-      // position: absolute;
-      // top: 0px;
-      // left: 0px;
-      // width: 100%;
-      // height: 50px;
-      // background-color: red;
-      // border-top-left-radius: 50%;
-      // border-top-right-radius: 50%;
-      // border-top: 1px solid white;
-    }
 
     &-img {
       width: 500px;

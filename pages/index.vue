@@ -7,6 +7,18 @@
       </nuxt-link>
     </div>
     <div class="index-flavor"></div>
+
+    <div class="index-movie">
+      <div class="index-movie-bg"></div>
+      <div class="index-movie-box">
+        <div class="index-movie-inner">
+          <div class="index-movie-head">近期活動</div>
+          <div class="index-movie-img"></div>
+        </div>
+      </div>
+      <div class="index-movie-bg2"></div>
+    </div>
+
     <div class="index-bg"></div>
 
     <div id="about" class="index-about">
@@ -88,17 +100,70 @@
 
   &-bg {
     width: 100%;
-    height: 300px;
+    height: 400px;
+    margin-top: -200px;
     background-image: url('../assets/img/bg/blue_medium.png');
     background-repeat: no-repeat;
     background-size: cover;
     background-position-x: center;
-    background-position-y: center;
+    background-position-y: top;
+  }
+
+  &-movie {
+    margin-top: -100px;
+
+    &-bg {
+      width: 100%;
+      height: 250px;
+      transform: rotate(180deg);
+      background-image: url('../assets/img/bg/grey_small.png');
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position-x: center;
+      background-position-y: top;
+    }
+
+    &-box {
+      margin: -2px 0px 0px;
+      background-color: #999999;
+    }
+
+    &-inner {
+      width: 800px;
+      margin: auto;
+      padding-bottom: 0px;
+    }
+
+    &-head {
+      font-size: 28px;
+    }
+
+    &-img {
+      width: 800px;
+      height: 800px;
+      margin: 20px auto 0px;
+      background-image: url('../assets/img/star/movie1.jpg');
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position-x: center;
+      background-position-y: center;
+    }
+
+    &-bg2 {
+      width: 100%;
+      height: 250px;
+      margin-top: -2px;
+      background-image: url('../assets/img/bg/grey_small.png');
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position-x: center;
+      background-position-y: top;
+    }
   }
 
   &-about {
     position: relative;
-    top: -200px;
+    top: -150px;
     width: 90vw;
     margin: auto;
     padding: 50px 50px 150px;
