@@ -52,6 +52,7 @@
       </div>
     </div>
     <!-- component -->
+    <rotateStar style="background-color: #999;" class="article-rotate" />
   </div>
 </template>
 
@@ -77,7 +78,7 @@
   }
 
   &-outer {
-    margin: 0px auto 50px;
+    margin: 0px auto 0px;
     padding-bottom: 50px;
     background-color: #595757;
   }
