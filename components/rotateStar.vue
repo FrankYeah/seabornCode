@@ -80,17 +80,6 @@ onBeforeUnmount(() => {
   engine?.destroy?.();
 });
 
-function useAsset(path) {
-  const assets = import.meta.glob('~/assets/**/*', {
-    eager: true,
-    import: 'default',
-  })
-  // @ts-expect-error: wrong type info
-  return assets['/assets/' + path]
-}
-
-
-
 const articles = reactive([
   {
     head: '每座燈塔都是獨一無二的眼睛1',
