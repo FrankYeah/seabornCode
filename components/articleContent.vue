@@ -85,13 +85,14 @@ const props = defineProps(
   &-left {
     max-width: 300px;
     width: 30%;
-    padding: 120px 40px 40px;
-    // background-color: #999999;
-    background-image: url('../assets/img/bg/grey_long.png');
+    margin-top: 93px;
+    padding: 54px 40px 40px;
+    background-color: #999999;
+    // background-image: url('../assets/img/bg/grey_long.png');
     background-repeat: no-repeat;
     background-size: cover;
-    background-position-x: center;
-    background-position-y: top;
+    // background-position-x: center;
+    // background-position-y: top;
 
     &-title {
       font-size: 28px;
@@ -133,8 +134,8 @@ const props = defineProps(
     position: relative;
     max-width: 800px;
     width: 70%;
-    margin-top: 42px;
-    padding: 90px 40px 70px;
+    margin-top: 94px;
+    padding: 30px 40px 70px;
     border: 1px solid white;
 
   }
@@ -165,10 +166,12 @@ const props = defineProps(
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin: 20px 0px 0px;
     padding: 60px 20px 40px;
 
     &-title {
       font-size: 20px;
+      text-align: center;
     }
 
     &-text {

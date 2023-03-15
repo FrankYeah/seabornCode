@@ -17,6 +17,7 @@ const props = defineProps(
 .article-right-img {
   width: 500px;
   height: 500px;
+  margin: 30px auto 0px;
   background-repeat: no-repeat;
   background-size: cover;
   background-position-x: center;
@@ -28,7 +29,7 @@ const props = defineProps(
 .article-right-img {
   width: 300px;
   height: 300px;
-  margin: auto;
+  margin: 20px auto 0px;
 }
 
 }

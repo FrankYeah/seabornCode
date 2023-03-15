@@ -111,7 +111,7 @@ const props = defineProps(
     &-head {
       width: 100%;
       font-size: 20px;
-      margin-right: 0px;
+      margin: 35px 0px 0px;
     }
 
     &-text {
