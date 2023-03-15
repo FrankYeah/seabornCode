@@ -30,7 +30,7 @@
 
 @media( max-width: 1023px ){
 
-.index {
+.vol {
 
 
 

@@ -25,9 +25,10 @@ const props = defineProps(
 
 @media( max-width: 1023px ){
 
-.footer {
-  
-
+.article-right-img {
+  width: 300px;
+  height: 300px;
+  margin: auto;
 }
 
 }

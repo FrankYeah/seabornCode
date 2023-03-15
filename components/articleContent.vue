@@ -137,36 +137,71 @@ const props = defineProps(
     padding: 90px 40px 70px;
     border: 1px solid white;
 
-    &-img {
-      width: 500px;
-      height: 500px;
-      background-image: url('../assets/img/bg/grey_small.png');
-      background-repeat: no-repeat;
-      background-size: cover;
-      background-position-x: center;
-      background-position-y: center;
-    }
-
-    &-title {
-      margin-top: 30px;
-      font-size: 28px;
-    }
-
-    &-text {
-      margin-top: 20px;
-      font-size: 20px;
-      letter-spacing: 1.3px;
-      line-height: 1.4;
-    }
-
   }
 
 }
 
 @media( max-width: 1023px ){
 
-.footer {
-  
+.article {
+  margin-bottom: 150px;
+
+  &-bg {
+    height: 50px;
+    margin-top: 14px;
+  }
+
+  &-outer {
+    padding-bottom: 30px;
+  }
+
+  &-inner {
+    flex-direction: column;
+  }
+
+  &-left {
+    max-width: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 60px 20px 40px;
+
+    &-title {
+      font-size: 20px;
+    }
+
+    &-text {
+      margin-top: 24px;
+      font-size: 18px;
+    }
+
+    &-text2 {
+      margin-top: 30px;
+      font-size: 20px;
+    }
+
+    &-row {
+    }
+
+    &-href {
+      
+    }
+
+    &-icon {
+      width: 30px;
+      height: 30px;
+      margin: 0px 10px;
+    }
+
+  }
+
+  &-right {
+    max-width: 100%;
+    width: 100%;
+    margin-top: 42px;
+    padding: 20px 10px 30px;
+  }
 
 }
 

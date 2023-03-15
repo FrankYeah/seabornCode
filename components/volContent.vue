@@ -82,8 +82,45 @@ const props = defineProps(
 
 @media( max-width: 1023px ){
 
-.footer {
-  
+.vol {
+  margin-bottom: 150px;
+
+  &-star {
+    height: 400px;
+    margin-top: 20px;
+
+    &-text {
+      top: 140px;
+      right: 0px;
+      padding: 0px 6px;
+      font-size: 20px;
+    }
+
+  }
+
+  &-about {
+    margin-top: -70px;
+    padding: 30px 0px 30px;
+
+    &-outer {
+      flex-direction: column;
+      width: 100vw;
+      padding: 0px 10px;
+    }
+
+    &-head {
+      width: 100%;
+      font-size: 20px;
+      margin-right: 0px;
+    }
+
+    &-text {
+      width: 100%;
+      margin-top: 20px;
+      font-size: 18px;
+    }
+    
+  }
 
 }
 

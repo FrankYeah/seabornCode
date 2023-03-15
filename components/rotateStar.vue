@@ -56,13 +56,23 @@ onMounted(() => {
   const swiperOptions = {
     spaceBetween: 30,
     loop: true,
-     slidesPerView: 3,
+    slidesPerView: 3,
     loopFillGroupWithBlank: true,
     autoHeight: false,
     autoplay: true,
     centeredSlides: false,
     enabled: true,
     observeSlideChildren: true,
+    breakpoints: {
+      1024: {
+        slidesPerView: 3,
+        spaceBetween: 0,
+      },
+      320: {
+        slidesPerView: 1,
+        spaceBetween: 0,
+      }
+    },
     navigation: {
       nextEl: '.swiper-button-next',
       prevEl: '.swiper-button-prev',
@@ -120,7 +130,7 @@ const articles = reactive([
       display: flex;
       align-items: center;
       margin-top: -1px;
-      padding: 80px 80px;
+      padding: 80px 4px;
       // background-color: #595757;
     }
 
@@ -174,10 +184,41 @@ const articles = reactive([
 
 @media( max-width: 1023px ){
 
-.footer {
-  
+.rotate {
 
-}
+    &-outer {
+      padding: 20px 10px;
+    }
+
+    &-slide {
+    }
+
+    &-box {
+      width: 300px;
+      padding: 10px 10px;
+    }
+
+    &-img {
+      width: 280px;
+      height: 280px;
+    }
+
+    &-head {
+      margin-top: 16px;
+      font-size: 20px;
+    }
+
+    &-text {
+      margin-top: 14px;
+      font-size: 18px;
+    }
+
+    &-bg {
+      width: 100%;
+      height: 100px;
+    }
+    
+  }
 
 }
 

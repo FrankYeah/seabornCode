@@ -21,9 +21,8 @@ const props = defineProps(
 
 @media( max-width: 1023px ){
 
-.footer {
-  
-
+.article-right-text {
+  font-size: 18px;
 }
 
 }
