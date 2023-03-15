@@ -8,7 +8,7 @@
               <!-- Slides -->
               <div v-for="(article, index) in articles"
                 :key="index"
-                class="swiper-slide"
+                class="swiper-slide rotate-slide"
               >
                 <router-link to="/stars/01" class="rotate-box">
                   <div :style="{ backgroundImage: `url(${useAsset(article.img)})` }"
@@ -31,7 +31,7 @@
           </div>
         
       </div>
-      <div class="vol-rotate-bg">
+      <div class="rotate-bg">
       </div>
     </div>
 </template>
@@ -125,6 +125,7 @@ const articles = reactive([
 <style lang="scss" scoped>
 
 .rotate {
+  position: relative;
 
     &-outer {
       display: flex;
@@ -132,6 +133,11 @@ const articles = reactive([
       margin-top: -1px;
       padding: 80px 80px;
       // background-color: #595757;
+    }
+
+    &-slide {
+      display: flex;
+      justify-content: center;
     }
 
     &-box {
@@ -164,8 +170,10 @@ const articles = reactive([
     }
 
     &-bg {
+      position: absolute;
       width: 100%;
       height: 150px;
+      margin-top: -1px;
       background-image: url('../assets/img/bg/grey_small.png');
       background-repeat: no-repeat;
       background-size: cover;

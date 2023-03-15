@@ -53,7 +53,6 @@
     </div>
     <!-- component -->
     <rotateStar style="background-color: #999;" class="article-rotate" />
-    <div class="article-bg2"></div>
   </div>
 </template>
 
@@ -65,6 +64,7 @@
 <style lang="scss" scoped>
 
 .article {
+  margin-bottom: 150px;
 
   &-bg {
     position: relative;
@@ -88,7 +88,7 @@
     width: 100vw;
     display: flex;
     justify-content: center;
-    padding: 0px 0px 0px;
+    padding: 0px 10px 0px;
     margin: -1px auto 0px;
   }
 
@@ -169,17 +169,6 @@
       line-height: 1.4;
     }
 
-  }
-
-  &-bg2 {
-    width: 100%;
-    height: 168px;
-    margin: -2px 0px 50px;
-    background-image: url('../../assets/img/bg/grey_small.png');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position-x: center;
-    background-position-y: top;
   }
 
 }

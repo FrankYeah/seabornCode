@@ -21,7 +21,6 @@
     </div>
     
     <rotateStar  style="background-color: #595757;" />
-    <div class="vol-about-bg"></div>
   </div>
 </template>
 
@@ -34,6 +33,7 @@
 <style lang="scss" scoped>
 
 .vol {
+  margin-bottom: 150px;
 
   &-star {
     position: relative;
@@ -80,17 +80,6 @@
     &-text {
       width: 80%;
       font-size: 24px;
-    }
-
-    &-bg {
-      width: 100%;
-      height: 130px;
-      margin: -2px 0px 50px;
-      background-image: url('../assets/img/bg/grey_small.png');
-      background-repeat: no-repeat;
-      background-size: cover;
-      background-position-x: center;
-      background-position-y: top;
     }
     
   }
