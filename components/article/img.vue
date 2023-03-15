@@ -1,7 +1,8 @@
 <template>
-    <div :style="{ backgroundImage: `url(${useAsset(props.img)})` }"
+    <img class="article-right-img" :src="`${useAsset(props.img)}`" alt="">
+    <!-- <div :style="{ backgroundImage: `url(${useAsset(props.img)})` }"
         class="article-right-img"
-    ></div>
+    ></div> -->
 </template>
 
 <script setup>
@@ -16,7 +17,6 @@ const props = defineProps(
 
 .article-right-img {
   width: 500px;
-  height: 500px;
   margin: 30px auto 0px;
   background-repeat: no-repeat;
   background-size: cover;
@@ -28,7 +28,6 @@ const props = defineProps(
 
 .article-right-img {
   width: 300px;
-  height: 300px;
   margin: 20px auto 0px;
 }
 

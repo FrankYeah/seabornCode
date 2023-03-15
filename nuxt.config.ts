@@ -7,6 +7,24 @@ export default defineNuxtConfig({
     // css: [
     //   'element-plus/dist/index.css'
     // ],
+    app: {
+      baseURL: '/seaborn/',
+      head: {
+        title: 'seaborn',
+        meta: [
+          { charset: 'utf-8' },
+          { name: 'viewport', content: 'width=device-width, initial-scale=1' },
+          {
+            hid: 'seaborn',
+            name: 'seaborn',
+            content: '以這座海港城市作為起點與歸屬，航向世界、航向未知，以不怕犯難的冒險精神前行，這也是刊物取名《seaborn》的由來。'
+          },
+          { hid: 'og:image' , property: 'og:image' , content: 'logo.png'},
+        ],
+        
+        link: [{ rel: 'icon', type: 'image/x-icon', href: '/seaborn/favicon.ico' }]
+      }
+    },
     vite: {
       css: {
         preprocessorOptions: {
