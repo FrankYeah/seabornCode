@@ -12,7 +12,7 @@
     你有多久沒有抬頭仰望星空了呢？2023我們從《seaborn》一同啟航，在北斗七星的星光指引下，仰望北極星吧！
     `"
   >
-    <rotateStar  style="background-color: #595757;" />
+    <rotateStar style="background-color: #595757;" />
   </vol-content>
 </template>
 

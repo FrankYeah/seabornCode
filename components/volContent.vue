@@ -19,7 +19,7 @@
 <script setup>
 
 const props = defineProps(
-    ['link', 'title', 'bg', 'text']
+  ['link', 'title', 'bg', 'text']
 )
 
 </script>
