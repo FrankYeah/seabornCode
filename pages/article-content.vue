@@ -1,0 +1,26 @@
+<template>
+
+</template>
+
+<script setup>
+
+
+
+</script>
+
+<style lang="scss" scoped>
+
+.footer {
+
+}
+
+@media( max-width: 1023px ){
+
+.footer {
+  
+
+}
+
+}
+
+</style>

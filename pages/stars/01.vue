@@ -14,13 +14,13 @@
             分享文章
           </div>
           <div class="article-left-row">
-            <a href="https://www.facebook.com/keelung1915" class="article-left-href" target="_blank">
+            <a :href="`https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(currentUrl)}`" class="article-left-href" target="_blank">
               <img class="article-left-icon" src="@/assets/img/social/fb.png" alt="fb">
             </a>
-            <a href="https://www.facebook.com/keelung1915" class="article-left-href" target="_blank">
+            <a :href="`https://social-plugins.line.me/lineit/share?url=${encodeURIComponent(currentUrl)}`" class="article-left-href" target="_blank">
               <img class="article-left-icon" src="@/assets/img/social/line.png" alt="line">
             </a>
-            <a href="https://www.facebook.com/keelung1915" class="article-left-href" target="_blank">
+            <a :href="`https://twitter.com/share?url=${encodeURIComponent(currentUrl)}`" class="article-left-href" target="_blank">
               <img class="article-left-icon" src="@/assets/img/social/twitter.png" alt="twitter">
             </a>
           </div>
@@ -58,6 +58,11 @@
 
 <script setup>
 
+import { useRoute } from 'vue-router'
+
+const route = useRoute()
+
+const currentUrl = `https://www.google.com${route.fullPath}`
 
 </script>
 

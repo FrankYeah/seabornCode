@@ -1,6 +1,8 @@
 <template>
   <div class="vol">
-    <div class="vol-star">
+    <div :style="{ backgroundImage: `url(${useAsset(props.bg)})` }"
+        class="vol-star"
+    >
         <div class="vol-star-text">{{ props.title }}</div>
     </div>
     <div class="vol-about">

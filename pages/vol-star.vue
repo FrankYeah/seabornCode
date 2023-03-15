@@ -1,7 +1,7 @@
 <template>
   <vol-content
     :title="'仰望北極星｜尋找人與時代的定位'"
-    :bg="''"
+    :bg="'img/index/vol_one.png'"
     :text="`
     本期選題從定位的角度，開啟另一種「仰望北極星」的視野，不單只是迷向時的方位指引，也引領我們共同尋找人與時代的定位。<br><br>
   
