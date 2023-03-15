@@ -236,9 +236,112 @@
 
 .index {
 
+  &-star {
+    height: 400px;
+    margin-top: 20px;
 
+    &-text {
+      top: 140px;
+      right: 0px;
+      padding: 0px 6px;
+      font-size: 20px;
+    }
+
+  }
+
+  &-flavor {
+    background-position-x: right;
+    height: 380px;
+  }
+
+  &-bg {
+    background: none;
+  }
+
+  &-movie {
+    margin-top: -80px;
+
+    &-bg {
+      height: 100px;
+    }
+
+    &-box {
+      padding: 0px 0px;
+    }
+
+    &-inner {
+      width: 320px;
+    }
+
+    &-head {
+      font-size: 20px;
+    }
+
+    &-img {
+      width: 320px;
+      height: 400px;
+      margin: 10px auto 0px;
+    }
+
+    &-bg2 {
+      height: 100px;
+    }
+  }
+
+  &-about {
+    top: -150px;
+    width: 95vw;
+    padding: 20px 20px 70px;
+
+    &-head {
+      font-size: 20px;
+    }
+
+    &-text {
+      margin-top: 16px;
+      font-size: 18px;
+    }
+    
+  }
+
+  &-contact {
+    width: 95vw;
+    height: 400px;
+    flex-direction: column;
+    align-items: center;
+    margin: -150px auto 50px;
+    padding: 50px 0px 0px;
+
+    &-title {
+      font-size: 20px;
+    }
+
+    &-des {
+      margin: 0px 30px;
+      font-size: 18px;
+    }
+
+    &-text {
+
+    }
+
+    &-social {
+      display: flex;
+
+      &-href {
+
+      }
+
+      &-icon {
+        width: 30px;
+        height: 30px;
+        margin: 10px 10px;
+      }
+    }
+  }
 
 }
+
 }
 
 </style>

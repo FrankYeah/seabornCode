@@ -27,7 +27,11 @@
 @media( max-width: 1023px ){
 
 .footer {
-  
+  height: 90px;
+
+  &-icon {
+    width: 200px;
+  }
 
 }
 

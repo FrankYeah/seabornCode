@@ -26,9 +26,6 @@
 <style lang="scss" scoped>
 
 .header {
-  // position: fixed;
-  // top: 0px;
-  // left: 0px;
   width: 100vw;
   height: 200px;
   background-image: url('../assets/img/bg/blue_small.png');
@@ -79,8 +76,29 @@
 @media( max-width: 1023px ){
 
 .header {
-  
+  width: 100vw;
+  height: 120px;
 
+  &-outer {
+    padding: 20px 20px;
+  }
+
+  &-href {
+
+  }
+
+  &-logo {
+    width: 130px;
+    
+  }
+
+  &-link {
+
+  }
+
+  &-text {
+    font-size: 16px;
+  }
 }
 
 }
