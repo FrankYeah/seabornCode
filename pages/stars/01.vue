@@ -53,6 +53,7 @@
     </div>
     <!-- component -->
     <rotateStar style="background-color: #999;" class="article-rotate" />
+    <div class="article-bg2"></div>
   </div>
 </template>
 
@@ -68,7 +69,7 @@
   &-bg {
     position: relative;
     width: 100%;
-    height: 200px;
+    height: 150px;
     margin-top: 50px;
     background-image: url('../../assets/img/bg/brown_long.png');
     background-repeat: no-repeat;
@@ -84,13 +85,15 @@
   }
 
   &-inner {
-    width: 90vw;
+    width: 100vw;
     display: flex;
-    padding: 50px 0px 0px;
+    justify-content: center;
+    padding: 0px 0px 0px;
     margin: -1px auto 0px;
   }
 
   &-left {
+    max-width: 300px;
     width: 30%;
     padding: 120px 40px 40px;
     // background-color: #999999;
@@ -138,8 +141,9 @@
 
   &-right {
     position: relative;
+    max-width: 800px;
     width: 70%;
-    margin-top: 14px;
+    margin-top: 36px;
     padding: 90px 40px 70px;
     border: 1px solid white;
 
@@ -165,6 +169,17 @@
       line-height: 1.4;
     }
 
+  }
+
+  &-bg2 {
+    width: 100%;
+    height: 168px;
+    margin: -2px 0px 50px;
+    background-image: url('../../assets/img/bg/grey_small.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: center;
+    background-position-y: top;
   }
 
 }

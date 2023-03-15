@@ -129,7 +129,7 @@
     }
 
     &-inner {
-      width: 800px;
+      width: 710px;
       margin: auto;
       padding-bottom: 0px;
     }
@@ -139,7 +139,7 @@
     }
 
     &-img {
-      width: 800px;
+      width: 710px;
       height: 800px;
       margin: 20px auto 0px;
       background-image: url('../assets/img/star/movie1.jpg');
