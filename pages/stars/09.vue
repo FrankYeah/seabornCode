@@ -1,7 +1,7 @@
 <template>
   <articleContent
     :type="`star`"
-    :title="`移居者 / 在地人，<br>與基隆的關係`"
+    :title="`移居者 / 在地人<br>與基隆的關係`"
     :name="`
     `"
   >

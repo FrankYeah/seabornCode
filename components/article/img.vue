@@ -27,7 +27,7 @@ const props = defineProps(
 @media( max-width: 1023px ){
 
 .article-right-img {
-  width: 300px;
+  padding: 0px 12px;
   margin: 20px auto 0px;
 }
 

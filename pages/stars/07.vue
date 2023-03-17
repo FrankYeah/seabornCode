@@ -1,7 +1,7 @@
 <template>
   <articleContent
     :type="`star`"
-    :title="`由港埠轉型，<br>一座人文薈萃的海洋城市`"
+    :title="`由港埠轉型<br>一座人文薈萃的海洋城市`"
     :name="`
       文：西打藍<br>
       圖：大樹影像、樸實創意、基隆市文化局

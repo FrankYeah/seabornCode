@@ -14,7 +14,7 @@
                   <div :style="{ backgroundImage: `url(${useAsset(article.img)})` }"
                     class="rotate-img"
                   ></div>
-                  <div class="rotate-head">{{ article.head }}</div>
+                  <div class="rotate-head" v-html="article.head"></div>
                   <div class="rotate-text">{{ article.text }}</div>
                 </router-link>
               </div>
@@ -94,7 +94,7 @@ onBeforeUnmount(() => {
 
 const articles = reactive([
   {
-    head: '天空的眼睛，請為我指引航向',
+    head: '天空的眼睛<br>請為我指引航向',
     text: '2005年，筆者榮幸，當然也是筆者一生的願望與夢想，我一直以為這一趟航海冒險之旅《大海浮夢第三章》',
     href: 'stars/01',
     img: 'img/star/author1.png'
@@ -124,25 +124,25 @@ const articles = reactive([
     img: 'img/star/place1.jpg'
   },
   {
-    head: '每座燈塔都是獨一無二的眼睛',
+    head: '每座燈塔<br>都是獨一無二的眼睛',
     text: '那是位在阿根廷最南端的城市烏斯懷亞（Ushuaia），一座號稱世界盡頭的燈塔（Faro del fin del mundo）',
     href: 'stars/06',
     img: 'img/star/lighthouse1.jpg'
   },
   {
-    head: '由港埠轉型，一座人文薈萃的海洋城市',
+    head: '由港埠轉型<br>一座人文薈萃的海洋城市',
     text: '靠近港口時，你會聞到鹹鹹的海水味道，廣場上人們的歡笑聲中，夾雜一旁船隻裝卸貨的喧囂',
     href: 'stars/07',
     img: 'img/star/ship1.jpg'
   },
   {
-    head: '物轉星移，時代眼中的基隆樣貌',
+    head: '物轉星移<br>時代眼中的基隆樣貌',
     text: '綿綿細雨中，水氣瀰漫基隆港，船隻鳴笛入港、遠方還有火車轟隆轟隆進站聲。這獨一無二的海港景色',
     href: 'stars/08',
     img: 'img/star/move1.jpg'
   },
   {
-    head: '移居者 / 在地人，與基隆的關係',
+    head: '移居者 / 在地人<br>與基隆的關係',
     text: '我小時候跟著阿公阿嬤在市場玩耍，小學在聖心讀書，和同學六年的感情，在上國中時被父母帶去台北讀書那刻起',
     href: 'stars/09',
     img: 'img/star/person1.png'

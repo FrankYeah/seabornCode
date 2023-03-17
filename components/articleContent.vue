@@ -86,7 +86,7 @@ const props = defineProps(
     max-width: 300px;
     width: 30%;
     margin-top: 93px;
-    padding: 54px 40px 40px;
+    padding: 80px 40px 40px;
     background-color: #999999;
     // background-image: url('../assets/img/bg/grey_long.png');
     background-repeat: no-repeat;
