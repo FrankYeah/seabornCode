@@ -96,16 +96,19 @@ const props = defineProps(
 
     &-title {
       font-size: 28px;
+      text-align: justify;
     }
 
     &-text {
       margin-top: 36px;
-      font-size: 20px;
+      font-size: 16px;
+      text-align: justify;
     }
 
     &-text2 {
       margin-top: 60px;
-      font-size: 20px;
+      font-size: 16px;
+      text-align: justify;
     }
 
     &-row {
@@ -135,7 +138,7 @@ const props = defineProps(
     max-width: 800px;
     width: 70%;
     margin-top: 94px;
-    padding: 30px 40px 70px;
+    padding: 60px 80px 70px;
     border: 1px solid white;
 
   }
@@ -165,23 +168,23 @@ const props = defineProps(
     width: 100%;
     display: flex;
     flex-direction: column;
-    align-items: center;
+    // align-items: center;
     margin: 20px 0px 0px;
-    padding: 60px 20px 40px;
+    padding: 30px 40px 30px;
 
     &-title {
-      font-size: 20px;
-      text-align: center;
+      font-size: 24px;
+      text-align: left;
     }
 
     &-text {
       margin-top: 24px;
-      font-size: 18px;
+      font-size: 14px;
     }
 
     &-text2 {
       margin-top: 30px;
-      font-size: 20px;
+      font-size: 14px;
     }
 
     &-row {
@@ -194,7 +197,7 @@ const props = defineProps(
     &-icon {
       width: 30px;
       height: 30px;
-      margin: 0px 10px;
+      margin: 0px 20px 0px 0px;
     }
 
   }

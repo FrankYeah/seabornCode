@@ -16,7 +16,7 @@ const props = defineProps(
 <style lang="scss" scoped>
 
 .article-right-img {
-  width: 100%;
+  width: 60%;
   margin: 60px auto 60px;
   background-repeat: no-repeat;
   background-size: cover;
@@ -27,7 +27,6 @@ const props = defineProps(
 @media( max-width: 1023px ){
 
 .article-right-img {
-  width: 300px;
   margin: 20px auto 0px;
 }
 

@@ -8,7 +8,7 @@
     </div>
     <div class="index-flavor"></div>
 
-    <div class="index-movie">
+    <div id="acitivity" class="index-movie">
       <div class="index-movie-bg"></div>
       <div class="index-movie-box">
         <div class="index-movie-inner">
@@ -36,9 +36,9 @@
     <div id="contact" class="index-contact">
       <div class="index-contact-title">聯絡我們</div>
       <div class="index-contact-des">
-        <div class="index-contact-text">地址：基隆市仁愛區港西街4號（ 基隆火車站前 )</div>
+        <div class="index-contact-text">地址：基隆市仁愛區港西街4號</div>
         <div class="index-contact-text">電話：(02) 2421-5681</div>
-        <div class="index-contact-text">營業時間：週二至週日上午9時至下午5時 ( 最後售票時間為15:30 )</div>
+        <div class="index-contact-text">營業時間：週二至週日上午9時至下午5時</div>
         <div class="index-contact-text">休館時間：每週一、除夕、春節初 一</div>
       </div>
       <div class="index-contact-social">
@@ -164,9 +164,9 @@
   &-about {
     position: relative;
     top: -150px;
-    width: 90vw;
+    width: 70vw;
     margin: auto;
-    padding: 50px 50px 150px;
+    padding: 150px 150px 200px;
     background-image: url('../assets/img/bg/blue_big.png');
     background-repeat: no-repeat;
     background-size: cover;
@@ -175,19 +175,21 @@
 
     &-head {
       font-size: 28px;
+      text-align: justify;
     }
 
     &-text {
       margin-top: 20px;
-      font-size: 24px;
+      font-size: 20px;
       line-height: 1.5;
       letter-spacing: 1.4px;
+      text-align: justify;
     }
     
   }
 
   &-contact {
-    width: 90vw;
+    width: 70vw;
     height: 500px;
     display: flex;
     justify-content: center;
@@ -291,7 +293,7 @@
   &-about {
     top: -150px;
     width: 95vw;
-    padding: 20px 20px 70px;
+    padding: 40px 40px 100px;
 
     &-head {
       font-size: 20px;
@@ -299,7 +301,7 @@
 
     &-text {
       margin-top: 16px;
-      font-size: 18px;
+      font-size: 12px;
     }
     
   }
@@ -308,24 +310,24 @@
     width: 95vw;
     height: 400px;
     flex-direction: column;
-    align-items: center;
     margin: -150px auto 50px;
-    padding: 50px 0px 0px;
+    padding: 50px 50px 0px;
 
     &-title {
       font-size: 20px;
     }
 
     &-des {
-      margin: 0px 30px;
-      font-size: 18px;
+      margin: 0px 0px;
+      font-size: 12px;
     }
 
     &-text {
-
+      font-size: 12px;
     }
 
     &-social {
+      margin-top: 40px;
       display: flex;
 
       &-href {

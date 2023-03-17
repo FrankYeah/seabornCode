@@ -45,6 +45,7 @@ const props = defineProps(
       top: 200px;
       right: 100px;
       font-size: 28px;
+      text-align: justify;
 
       &:hover {
         opacity: 0.8;
@@ -69,11 +70,13 @@ const props = defineProps(
       width: 116px;
       font-size: 28px;
       margin-right: 24px;
+      text-align: justify;
     }
 
     &-text {
       width: 80%;
       font-size: 24px;
+      text-align: justify;
     }
     
   }
@@ -105,7 +108,7 @@ const props = defineProps(
     &-outer {
       flex-direction: column;
       width: 100vw;
-      padding: 0px 10px;
+      padding: 0px 40px;
     }
 
     &-head {
@@ -117,7 +120,7 @@ const props = defineProps(
     &-text {
       width: 100%;
       margin-top: 20px;
-      font-size: 18px;
+      font-size: 14px;
     }
     
   }

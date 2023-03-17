@@ -59,7 +59,9 @@ onMounted(() => {
     slidesPerView: 3,
     loopFillGroupWithBlank: true,
     autoHeight: false,
-    autoplay: true,
+    autoplay: {
+      delay: 3000,
+    },
     centeredSlides: false,
     enabled: true,
     observeSlideChildren: true,
@@ -177,14 +179,14 @@ const articles = reactive([
 
     &-box {
       width: 330px;
-      height: 560px;
+      height: 520px;
       border: 1px solid white;
-      padding: 10px 15px;
+      padding: 20px 20px;
       display: block;
     }
 
     &-img {
-      width: 300px;
+      // width: 300px;
       height: 300px;
       background-color: #999999;
       background-repeat: no-repeat;
@@ -196,13 +198,15 @@ const articles = reactive([
     &-head {
       margin-top: 20px;
       font-size: 24px;
+      text-align: justify;
     }
 
     &-text {
       margin-top: 24px;
-      font-size: 20px;
+      font-size: 14px;
       line-height: 1.5;
       letter-spacing: 1.3px;
+      text-align: justify;
     }
 
     &-bg {
@@ -233,11 +237,11 @@ const articles = reactive([
     &-box {
       width: 300px;
       height: auto;
-      padding: 10px 10px;
+      padding: 20px 20px;
     }
 
     &-img {
-      width: 280px;
+      // width: 280px;
       height: 280px;
     }
 
@@ -248,7 +252,7 @@ const articles = reactive([
 
     &-text {
       margin-top: 14px;
-      font-size: 18px;
+      font-size: 12px;
     }
 
     &-bg {

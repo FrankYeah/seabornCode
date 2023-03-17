@@ -15,12 +15,13 @@ const props = defineProps(
 .article-right-title {
     margin-top: 30px;
     font-size: 28px;
+    text-align: justify;
 }
 
 @media( max-width: 1023px ){
 
 .article-right-title {
-  margin-top: 20px;
+  margin: 20px 12px 0px;
   font-size: 20px;
 }
 

@@ -14,15 +14,17 @@ const props = defineProps(
 
 .article-right-text {
     margin-top: 20px;
-    font-size: 20px;
+    font-size: 18px;
     letter-spacing: 1.3px;
     line-height: 1.4;
+    text-align: justify;
 }
 
 @media( max-width: 1023px ){
 
 .article-right-text {
-  font-size: 18px;
+  padding: 0px 12px;
+  font-size: 14px;
 }
 
 }

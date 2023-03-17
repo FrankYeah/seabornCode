@@ -5,6 +5,10 @@
         <img class="header-logo" src="@/assets/img/icon/logo.png" alt="logo">
       </nuxt-link>
       <div class="header-row">
+        <nuxt-link class="header-link" to="/#acitivity">
+          <div class="header-text">活動</div>
+        </nuxt-link>
+        <div class="header-text">｜</div>
         <nuxt-link class="header-link" to="/#about">
           <div class="header-text">關於</div>
         </nuxt-link>
@@ -26,6 +30,8 @@
 <style lang="scss" scoped>
 
 .header {
+  position: fixed;
+  top: 0px;
   width: 100vw;
   height: 200px;
   background-image: url('../assets/img/bg/blue_small.png');
@@ -33,13 +39,13 @@
   background-size: cover;
   background-position-x: center;
   background-position-y: center;
-  z-index: -1;
+  z-index: 3;
 
   &-outer {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 20px 40px;
+    padding: 40px 60px;
   }
 
   &-href {
@@ -47,7 +53,7 @@
   }
 
   &-logo {
-    width: 200px;
+    width: 280px;
 
     &:hover {
       opacity: 0.8;
@@ -77,7 +83,7 @@
 
 .header {
   width: 100vw;
-  height: 120px;
+  height: 80px;
 
   &-outer {
     padding: 20px 20px;
@@ -97,7 +103,7 @@
   }
 
   &-text {
-    font-size: 16px;
+    font-size: 12px;
   }
 }
 
