@@ -5,6 +5,28 @@
         <img class="header-logo" src="@/assets/img/icon/logo.png" alt="logo">
       </nuxt-link>
       <div class="header-row">
+        
+        <div class="header-item header-item-hover">
+          <div @click="isShowProject = !isShowProject"
+            @mouseover="isShowProject = !isShowProject"
+            class="header-item-title-hover"
+          >期刊</div>
+          <img class="header-item-img" src="@/assets/img/icon/arrow.png" alt="arrow">
+          <div v-if="isShowProject"
+            @click="closeProjectShop"
+            @mouseover="isShowProject = true"
+            @mouseleave="isShowProject = false"
+            class="header-item-box"
+          >
+            <nuxt-link to="/vol-star">
+              <div class="header-item-box-text">仰望北極星</div>
+            </nuxt-link>
+            <!-- <nuxt-link to="/book">
+              <div class="header-item-box-text">書籍</div>
+            </nuxt-link> -->
+          </div>
+        </div>
+
         <nuxt-link class="header-link" to="/#acitivity">
           <div class="header-text">活動</div>
         </nuxt-link>
@@ -23,7 +45,11 @@
 
 <script setup>
 
+const isShowProject = ref(false)
 
+function closeProjectShop() {
+  isShowProject.value = false
+}
 
 </script>
 
@@ -65,12 +91,62 @@
     align-items: center;
   }
 
+  &-item {
+    margin: 0px 2px;
+    font-size: 20px;
+  }
+
+  &-item-hover {
+    position: relative;
+    display: flex;
+    align-items: center;
+  }
+
+  &-item-title-hover {
+    font-size: 20px;
+    cursor: pointer;
+  }
+
+  &-item-img {
+    width: 10px;
+    height: 5px;
+    margin: 0px 8px 0px 4px;
+    cursor: pointer;
+  }
+
+  &-item-box {
+    position: absolute;
+    top: 30px;
+    left: -40px;
+    width: 120px;
+    padding: 10px 8px;
+    background: white;
+    border-radius: 2px;
+
+    & a {
+      
+      &:last-child {
+
+        & div {
+          padding-bottom: 0px;
+        }
+        
+      }
+    }
+  }
+
+  &-item-box-text {
+    padding-bottom: 10px;
+    color: #5E5B52;
+    border-bottom: 1px solid transparent;
+  }
+
   &-link {
 
   }
 
   &-text {
-    margin: 0px 4px;
+    margin: 0px 2px;
     font-size: 20px;
 
     &:hover {
@@ -87,7 +163,7 @@
   background-image: url('../assets/img/bg/blue_small_m.png');
 
   &-outer {
-    padding: 20px 20px;
+    padding: 20px 10px;
   }
 
   &-href {
@@ -97,6 +173,47 @@
   &-logo {
     width: 130px;
     
+  }
+
+  &-item {
+    margin: 0px 2px;
+    font-size: 12px;
+  }
+
+  &-item-hover {
+    
+  }
+
+  &-item-title-hover {
+    font-size: 12px;
+  }
+
+  &-item-img {
+    width: 6px;
+    height: 3px;
+    margin: 0px 6px 0px 2px;
+  }
+
+  &-item-box {
+    top: 20px;
+    width: 100px;
+    padding: 5px 8px;
+
+    & a {
+      
+      &:last-child {
+
+        & div {
+          padding-bottom: 0px;
+        }
+        
+      }
+    }
+  }
+
+  &-item-box-text {
+    padding-bottom: 5px;
+    font-size: 12px;
   }
 
   &-link {
