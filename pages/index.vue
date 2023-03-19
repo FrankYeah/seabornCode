@@ -1,19 +1,30 @@
 <template>
   <div class="index">
 
-    <div class="index-star">
+    <div class="index-vol">
       <nuxt-link to="/vol-star">
-        <div class="index-star-text">仰望北極星｜尋找人與時代的定位</div>
+        <img class="index-vol-img" src="@/assets/img/index/v1.png" alt="fb">
+      </nuxt-link>
+      <nuxt-link to="/">
+        <img class="index-vol-img" src="@/assets/img/index/v2.png" alt="fb">
+      </nuxt-link>
+      <nuxt-link to="/">
+        <img class="index-vol-img" src="@/assets/img/index/v3.png" alt="fb">
+      </nuxt-link>
+      <nuxt-link to="/">
+        <img class="index-vol-img" src="@/assets/img/index/v4.png" alt="fb">
       </nuxt-link>
     </div>
-    <div class="index-flavor"></div>
 
     <div id="acitivity" class="index-movie">
       <div class="index-movie-bg"></div>
       <div class="index-movie-box">
         <div class="index-movie-inner">
           <div class="index-movie-head">近期活動</div>
-          <div class="index-movie-img"></div>
+          <img class="index-movie-img" src="@/assets/img/star/movie1.jpg" alt="fb">
+          <a href="https://ocam.fonticket.com" target="_blank">
+          <div class="index-movie-btn">報名連結</div>
+          </a>
         </div>
       </div>
       <div class="index-movie-bg2"></div>
@@ -62,40 +73,19 @@
 
 .index {
 
-  &-star {
-    position: relative;
-    width: 100%;
-    height: 600px;
-    margin-top: 50px;
-    background-image: url('../assets/img/index/vol_one.png');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position-x: center;
-    background-position-y: center;
+  &-vol {
+    max-width: 1024px;
+    padding: 280px 0px 200px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 
-    &-text {
-      position: absolute;
-      top: 200px;
-      right: 100px;
-      font-size: 28px;
-
-      &:hover {
-        opacity: 0.8;
-      }
+    &-img {
+      width: 250px;
+      cursor: pointer;
     }
 
-  }
-
-  &-flavor {
-    position: relative;
-    top: -110px;
-    width: 100%;
-    height: 600px;
-    background-image: url('../assets/img/index/vol_two.png');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position-x: center;
-    background-position-y: center;
   }
 
   &-bg {
@@ -140,13 +130,24 @@
 
     &-img {
       width: 710px;
-      height: 800px;
       margin: 20px auto 0px;
-      background-image: url('../assets/img/star/movie1.jpg');
-      background-repeat: no-repeat;
-      background-size: cover;
-      background-position-x: center;
-      background-position-y: center;
+    }
+
+    &-btn {
+      width: 160px;
+      height: 50px;
+      font-size: 20px;
+      margin: 30px auto 0px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: white;
+      background-color: #595757;
+      cursor: pointer;
+
+      &:hover {
+        opacity: 0.8;
+      }
     }
 
     &-bg2 {
@@ -238,24 +239,18 @@
 
 .index {
 
-  &-star {
-    height: 400px;
-    margin-top: 20px;
+  &-vol {
+    padding: 100px 5px 100px;
+    flex-wrap: wrap;
+    justify-content: center;
 
-    &-text {
-      top: 140px;
-      right: 0px;
-      padding: 0px 6px;
-      font-size: 20px;
+    &-img {
+      width: 144px;
+      margin: 0px 5px 20px;
     }
 
   }
-
-  &-flavor {
-    background-position-x: right;
-    height: 380px;
-  }
-
+  
   &-bg {
     background: none;
   }
@@ -272,7 +267,9 @@
     }
 
     &-inner {
-      width: 320px;
+      max-width: 500px;
+      width: 100%;
+      padding: 0px 20px;
     }
 
     &-head {
@@ -280,9 +277,16 @@
     }
 
     &-img {
-      width: 320px;
-      height: 400px;
+      max-width: 500px;
+      width: 100%;
       margin: 10px auto 0px;
+    }
+
+    &-btn {
+      width: 90px;
+      height: 40px;
+      margin: 20px auto 0px;
+      font-size: 14px;
     }
 
     &-bg2 {

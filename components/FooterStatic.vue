@@ -1,6 +1,6 @@
 <template>
   <div class="footer">
-    <img class="footer-icon" src="@/assets/img/icon/yangming.png" alt="yangming">
+    <img class="footer-icon" src="@/assets/img/icon/yangming_logo.png" alt="yangming">
   </div>
 </template>
 
@@ -13,13 +13,13 @@
 <style lang="scss" scoped>
 
 .footer {
-  height: 120px;
+  padding: 40px 0px;
   display: flex;
   justify-content: center;
   align-items: center;
 
   &-icon {
-    width: 250px;
+    width: 80px;
   }
 
 }
@@ -27,10 +27,10 @@
 @media( max-width: 1023px ){
 
 .footer {
-  height: 90px;
+  padding: 10px 0px 30px;
 
   &-icon {
-    width: 200px;
+    width: 60px;
   }
 
 }
