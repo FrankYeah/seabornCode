@@ -6,7 +6,7 @@
       文、圖：鄭十一
     `"
   >
-    <articleImg :img="`img/star/lighthouse1.jpg`" />
+    <articleImg :marginTop="'0px'" :img="`img/star/lighthouse1.jpg`" />
     <articleText :text="`
     那是位在阿根廷最南端的城市烏斯懷亞（Ushuaia），一座號稱世界盡頭的燈塔（Faro del fin del mundo）。然而真正賦予它世界盡頭的美名，其實是法國的科幻小說家儒勒．凡爾納（Julio Verne）。1905年關於海盜傳奇的小說《世界盡頭的燈塔》（Le Phare du bout du monde），讓人們對燈塔有了更多的想像。<br><br>
 燈塔在人們的普遍印象裡，是遙遠、甚或孤獨的存在，但它同時也是指引、希望的象徵。陸地上的人前往燈塔是往海角天邊，尋找遺世獨立的超然感，但對海上的人來說，燈塔是海與陸交界的守護者，帶來靠岸返航的安全感。<br><br>

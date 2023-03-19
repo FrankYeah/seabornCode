@@ -15,7 +15,7 @@
                     class="rotate-img"
                   ></div>
                   <div class="rotate-head" v-html="article.head"></div>
-                  <div class="rotate-text">{{ article.text }}</div>
+                  <div class="rotate-text">{{ article.text }}...<span class="rotate-more">more</span></div>
                 </router-link>
               </div>
             </div>
@@ -220,6 +220,11 @@ const articles = reactive([
       background-position-x: center;
       background-position-y: bottom;
     }
+
+    &-more {
+      text-decoration: underline;
+      font-size: 14px;
+    }
     
   }
 
@@ -258,6 +263,10 @@ const articles = reactive([
     &-bg {
       width: 100%;
       height: 100px;
+    }
+
+    &-more {
+      font-size: 12px;
     }
     
   }
