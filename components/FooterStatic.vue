@@ -1,6 +1,8 @@
 <template>
   <div class="footer">
-    <img class="footer-icon" src="@/assets/img/icon/yangming_logo.png" alt="yangming">
+    <a href="https://www.ocam.org.tw/" target="_blank">
+      <img class="footer-icon" src="@/assets/img/icon/yangming_logo.png" alt="yangming">
+    </a>
   </div>
 </template>
 

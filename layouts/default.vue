@@ -7,7 +7,21 @@
   </div>
 </template>
 
-<script lang="ts" setup>
+<script setup>
+
+const title = ref('seaborn')
+const description = ref('以這座海港城市作為起點與歸屬，航向世界、航向未知，以不怕犯難的冒險精神前行，這也是刊物取名《seaborn》的由來。')
+
+// This will be reactive even you change title/description above
+useHead({
+  title,
+  meta: [
+    { name: 'description', content: description},
+    { name: 'og:description', content: description},
+    { name: 'og:title', content: title},
+    { name: 'og:img', content: useAsset('img/star-main/1.jpg')},
+  ]
+})
 
 </script>
 

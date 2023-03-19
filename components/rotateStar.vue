@@ -179,7 +179,7 @@ const articles = reactive([
 
     &-box {
       width: 350px;
-      height: 520px;
+      min-height: 450px;
       border: 1px solid white;
       padding: 20px 20px;
       display: block;
@@ -241,7 +241,7 @@ const articles = reactive([
 
     &-box {
       width: 300px;
-      height: auto;
+      min-height: auto;
       padding: 20px 20px;
     }
 

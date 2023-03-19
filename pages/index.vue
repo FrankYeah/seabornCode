@@ -17,7 +17,6 @@
     </div>
 
     <div id="acitivity" class="index-movie">
-      <div class="index-movie-bg"></div>
       <div class="index-movie-box">
         <div class="index-movie-inner">
           <div class="index-movie-head">近期活動</div>
@@ -27,7 +26,6 @@
           </a>
         </div>
       </div>
-      <div class="index-movie-bg2"></div>
     </div>
 
     <div class="index-bg"></div>
@@ -102,20 +100,14 @@
   &-movie {
     margin-top: -100px;
 
-    &-bg {
-      width: 100%;
-      height: 250px;
-      transform: rotate(180deg);
-      background-image: url('../assets/img/bg/grey_small.png');
+    &-box {
+      margin: -2px 0px 280px;
+      padding: 80px 0px 80px;
+      background-image: url('../assets/img/bg/grey_long_m.png');
       background-repeat: no-repeat;
       background-size: cover;
       background-position-x: center;
       background-position-y: top;
-    }
-
-    &-box {
-      margin: -2px 0px 0px;
-      background-color: #999999;
     }
 
     &-inner {
@@ -148,17 +140,6 @@
       &:hover {
         opacity: 0.8;
       }
-    }
-
-    &-bg2 {
-      width: 100%;
-      height: 250px;
-      margin-top: -2px;
-      background-image: url('../assets/img/bg/grey_small.png');
-      background-repeat: no-repeat;
-      background-size: cover;
-      background-position-x: center;
-      background-position-y: top;
     }
   }
 
@@ -258,12 +239,10 @@
   &-movie {
     margin-top: -80px;
 
-    &-bg {
-      height: 100px;
-    }
-
     &-box {
-      padding: 0px 0px;
+      margin: 0px 0px 0px;
+      padding: 60px 0px 20px;
+      background-image: url('../assets/img/bg/grey_long_more.png');
     }
 
     &-inner {
@@ -287,10 +266,6 @@
       height: 40px;
       margin: 20px auto 0px;
       font-size: 14px;
-    }
-
-    &-bg2 {
-      height: 100px;
     }
   }
 
