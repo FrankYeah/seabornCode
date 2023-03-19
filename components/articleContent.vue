@@ -4,22 +4,26 @@
     <div class="article-outer">
       <div class="article-inner">
         <div class="article-left">
-          <div class="article-left-title" v-html="props.title"></div>
-          <div class="article-left-text" v-html="props.name"></div>
-          <div class="article-left-text2">
-            加入書籤   +
-            分享文章
-          </div>
-          <div class="article-left-row">
-            <a :href="`https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(currentUrl)}`" class="article-left-href" target="_blank">
-              <img class="article-left-icon" src="@/assets/img/social/fb.png" alt="fb">
-            </a>
-            <a :href="`https://social-plugins.line.me/lineit/share?url=${encodeURIComponent(currentUrl)}`" class="article-left-href" target="_blank">
-              <img class="article-left-icon" src="@/assets/img/social/line.png" alt="line">
-            </a>
-            <a :href="`https://twitter.com/share?url=${encodeURIComponent(currentUrl)}`" class="article-left-href" target="_blank">
-              <img class="article-left-icon" src="@/assets/img/social/twitter.png" alt="twitter">
-            </a>
+          <div :class="['article-left-fix',
+            {'article-left-nofix': noFix}]"
+          >
+            <div class="article-left-title" v-html="props.title"></div>
+            <div class="article-left-text" v-html="props.name"></div>
+            <div class="article-left-text2">
+              加入書籤   +
+              分享文章
+            </div>
+            <div class="article-left-row">
+              <a :href="`https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(currentUrl)}`" class="article-left-href" target="_blank">
+                <img class="article-left-icon" src="@/assets/img/social/fb.png" alt="fb">
+              </a>
+              <a :href="`https://social-plugins.line.me/lineit/share?url=${encodeURIComponent(currentUrl)}`" class="article-left-href" target="_blank">
+                <img class="article-left-icon" src="@/assets/img/social/line.png" alt="line">
+              </a>
+              <a :href="`https://twitter.com/share?url=${encodeURIComponent(currentUrl)}`" class="article-left-href" target="_blank">
+                <img class="article-left-icon" src="@/assets/img/social/twitter.png" alt="twitter">
+              </a>
+            </div>
           </div>
         </div>
         <div class="article-right">
@@ -38,11 +42,37 @@ import { useRoute } from 'vue-router'
 
 const route = useRoute()
 const currentUrl = ref('')
+const noFix = ref(false)
+
+const handleScroll = () => {
+  const windowHeight = window.innerHeight;
+  const documentHeight = document.documentElement.scrollHeight;
+  const scrollTop = window.scrollY || window.pageYOffset;
+  const distanceToBottom = documentHeight - (scrollTop + windowHeight);
+  console.log(windowHeight)
+  console.log(documentHeight)
+  console.log(scrollTop)
+  console.log(distanceToBottom)
+
+  if(window.innerWidth > 1023) {
+    if(distanceToBottom > windowHeight + 400){
+      noFix.value = false
+    }else{
+      noFix.value = true
+    }
+  } else {
+    if(distanceToBottom > windowHeight - 400){
+      noFix.value = false
+    }else{
+      noFix.value = true
+    }
+  }
+}
 
 onMounted(() => {
   currentUrl.value = `${window.location.href}`
-});
-
+  document.addEventListener('scroll', handleScroll)
+})
 
 const props = defineProps(
   ['title', 'name', 'type']
@@ -85,14 +115,20 @@ const props = defineProps(
   &-left {
     max-width: 300px;
     width: 30%;
-    margin-top: 93px;
+    margin-top: 30px;
     padding: 80px 40px 40px;
     background-color: #999999;
-    // background-image: url('../assets/img/bg/grey_long.png');
     background-repeat: no-repeat;
     background-size: cover;
-    // background-position-x: center;
-    // background-position-y: top;
+
+    &-fix {
+      position: fixed;
+      width: 220px;
+    }
+
+    &-nofix {
+      position: static;
+    }
 
     &-title {
       font-size: 28px;
@@ -137,7 +173,7 @@ const props = defineProps(
     position: relative;
     max-width: 800px;
     width: 70%;
-    margin-top: 94px;
+    margin-top: 30px;
     padding: 60px 80px 70px;
     border: 1px solid white;
 
@@ -166,11 +202,29 @@ const props = defineProps(
   &-left {
     max-width: 100%;
     width: 100%;
+    height: 280px;
     display: flex;
     flex-direction: column;
-    // align-items: center;
-    margin: 20px 0px 0px;
+    margin: 40px 0px 0px;
     padding: 30px 40px 30px;
+
+    &-fix {
+      position: fixed;
+      top: 90px;
+      left: 10px;
+      max-width: 100%;
+      width: calc(100% - 20px);
+      display: flex;
+      flex-direction: column;
+      margin: 20px 0px 0px;
+      padding: 30px 40px 30px;
+      background-color: #999999;
+      z-index: 1;
+    }
+
+    &-nofix {
+      position: static;
+    }
 
     &-title {
       font-size: 24px;
