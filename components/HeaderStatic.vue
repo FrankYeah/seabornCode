@@ -84,6 +84,7 @@
 .header {
   width: 100vw;
   height: 80px;
+  background-image: url('../assets/img/bg/blue_small_m.png');
 
   &-outer {
     padding: 20px 20px;

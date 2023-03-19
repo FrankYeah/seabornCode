@@ -1,14 +1,13 @@
 <template>
   <div class="vol">
-    <div :style="{ backgroundImage: `url(${useAsset(props.bg)})` }"
-        class="vol-star"
-    >
-        <div class="vol-star-text">{{ props.title }}</div>
-    </div>
+    <div class="vol-star"></div>
     <div class="vol-about">
       <div class="vol-about-outer">
-        <div class="vol-about-head">關於本集</div>
-        <div class="vol-about-text" v-html="props.text"></div>
+        <img class="vol-about-img" :src="`${useAsset(props.bg)}`" alt="fb">
+        <div>
+          <div class="vol-about-head">關於本集</div>
+          <div class="vol-about-text" v-html="props.text"></div>
+        </div>
       </div>
     </div>
     
@@ -32,13 +31,7 @@ const props = defineProps(
   &-star {
     position: relative;
     width: 100%;
-    height: 600px;
-    margin-top: 50px;
-    background-image: url('../assets/img/index/vol_one.png');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position-x: center;
-    background-position-y: center;
+    padding-top: 200px;
 
     &-text {
       position: absolute;
@@ -56,25 +49,30 @@ const props = defineProps(
 
   &-about {
     margin-top: -80px;
-    padding: 100px 50px;
+    padding: 140px 100px 100px;
     background-color: #999999;
 
     &-outer {
-      width: calc(100vw - 100px);
+      width: calc(100vw - 200px);
       display: flex;
-      justify-content: center;
+      justify-content: space-between;
+      align-items: flex-start;
       margin: auto;
+    }
+
+    &-img {
+      width: 400px;
+      margin-right: 100px;
     }
 
     &-head {
       width: 116px;
       font-size: 28px;
-      margin-right: 24px;
       text-align: justify;
     }
 
     &-text {
-      width: 80%;
+      margin-top: 20px;
       font-size: 24px;
       text-align: justify;
     }
@@ -89,7 +87,7 @@ const props = defineProps(
   margin-bottom: 150px;
 
   &-star {
-    height: 400px;
+    padding-top: 0px;
     margin-top: 20px;
 
     &-text {
@@ -102,13 +100,19 @@ const props = defineProps(
   }
 
   &-about {
-    margin-top: -70px;
-    padding: 30px 0px 30px;
+    margin-top: 0px;
+    padding: 80px 0px 30px;
 
     &-outer {
       flex-direction: column;
       width: 100vw;
       padding: 0px 40px;
+    }
+
+    &-img {
+      max-width: 200px;
+      width: 100%;
+      margin: 0px auto;
     }
 
     &-head {

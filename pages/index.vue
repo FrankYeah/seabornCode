@@ -298,6 +298,7 @@
     top: -150px;
     width: 95vw;
     padding: 40px 40px 100px;
+    background-image: url('../assets/img/bg/blue_big_m.png');
 
     &-head {
       font-size: 20px;
@@ -316,6 +317,7 @@
     flex-direction: column;
     margin: -150px auto 50px;
     padding: 50px 50px 0px;
+    background-image: url('../assets/img/index/contact_bg_m.png');
 
     &-title {
       font-size: 20px;
