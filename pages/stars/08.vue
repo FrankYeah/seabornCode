@@ -1,7 +1,7 @@
 <template>
   <articleContent
     :type="`star`"
-    :title="`物轉星移<br>時代眼中的基隆樣貌`"
+    :title="`物轉星移<br>時代眼中的<br>基隆樣貌`"
     :name="`
       文：西打藍<br>
       圖：涂佳豪

@@ -1,7 +1,7 @@
 <template>
   <articleContent
     :type="`star`"
-    :title="`以星辰航海<br>紅頭嶼的部落傳說`"
+    :title="`以星辰航海<br>紅頭嶼的<br>部落傳說`"
     :name="`
       文、圖：夏曼‧藍波安
     `"

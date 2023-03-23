@@ -62,17 +62,21 @@ const handleScroll = () => {
     }
   } else {
     noFix.value = true
-    // if(distanceToBottom > windowHeight - 400){
-    //   noFix.value = false
-    // }else{
-    //   noFix.value = true
-    // }
   }
 }
 
 onMounted(() => {
   currentUrl.value = `${window.location.href}`
   document.addEventListener('scroll', handleScroll)
+  if(window.innerWidth > 1023) {
+    if(distanceToBottom > windowHeight + 400){
+      noFix.value = false
+    }else{
+      noFix.value = true
+    }
+  } else {
+    noFix.value = true
+  }
 })
 
 const props = defineProps(
@@ -206,19 +210,20 @@ const props = defineProps(
     height: 280px;
     display: flex;
     flex-direction: column;
+    justify-content: center;
     margin: 40px 0px 0px;
-    padding: 30px 40px 30px;
+    padding: 30px 0px 30px;
 
     &-fix {
       position: fixed;
       top: 90px;
       left: 10px;
       max-width: 100%;
-      width: calc(100% - 20px);
+      width: 100%;
       display: flex;
       flex-direction: column;
-      margin: 20px 0px 0px;
-      padding: 30px 40px 30px;
+      margin: 0px 0px 0px;
+      padding: 0px 22px 0px;
       background-color: #999999;
       z-index: 1;
     }

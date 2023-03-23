@@ -1,5 +1,5 @@
 <template>
-    <img class="article-right-img" :style="`width: ${props.width}; margin-top:${props.marginTop}`" :src="`${useAsset(props.img)}`" alt="">
+    <img class="article-right-img" :style="`width: ${props.width}; margin-top:${props.marginTop}; margin-bottom:${props.marginBottom}`" :src="`${useAsset(props.img)}`" alt="">
     <!-- <div :style="{ backgroundImage: `url(${useAsset(props.img)})` }"
         class="article-right-img"
     ></div> -->
@@ -8,7 +8,7 @@
 <script setup>
 
 const props = defineProps(
-  ['img', 'width', 'marginTop']
+  ['img', 'width', 'marginTop', 'marginBottom']
 )
 
 </script>

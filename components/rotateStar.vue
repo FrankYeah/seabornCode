@@ -94,7 +94,7 @@ onBeforeUnmount(() => {
 
 const articles = reactive([
   {
-    head: '天空的眼睛<br>請為我指引航向',
+    head: '以星辰航海<br>紅頭嶼的部落傳說',
     text: '2005年，筆者榮幸，當然也是筆者一生的願望與夢想，我一直以為這一趟航海冒險之旅《大海浮夢第三章》',
     href: 'stars/01',
     img: 'img/star-main/1.jpg'
@@ -127,13 +127,13 @@ const articles = reactive([
     head: '每座燈塔<br>都是獨一無二的眼睛',
     text: '那是位在阿根廷最南端的城市烏斯懷亞（Ushuaia），一座號稱世界盡頭的燈塔（Faro del fin del mundo）',
     href: 'stars/06',
-    img: 'img/star-main/6.jpg'
+    img: 'img/star-main/6.png'
   },
   {
     head: '由港埠轉型<br>一座人文薈萃的海洋城市',
     text: '靠近港口時，你會聞到鹹鹹的海水味道，廣場上人們的歡笑聲中，夾雜一旁船隻裝卸貨的喧囂',
     href: 'stars/07',
-    img: 'img/star-main/7.png'
+    img: 'img/star-main/7.jpg'
   },
   {
     head: '物轉星移<br>時代眼中的基隆樣貌',

@@ -5,7 +5,7 @@
     :name="`
     `"
   >
-    <articleImg :marginTop="'20px'" :width="'60%'" :img="`img/star/person1.png`" />
+    <articleImg :marginTop="'20px'" :marginBottom="'50px'" :width="'60%'" :img="`img/star/person1.png`" />
     <articleTitle :title="`葉姿辰 / 通勤族 /  23 歲`" />
     <articleText :text="`
     我小時候跟著阿公阿嬤在市場玩耍，小學在聖心讀書，和同學六年的感情，在上國中時被父母帶去台北讀書那刻起全部消失，開啟每天在人生地不熟的台北通勤的人生！國高中時每天6:30起床到台北讀書，18:00放學回家，更多時候是21:00才放學，基隆像是民宿般的存在，像過客短暫停留。<br><br>
@@ -13,7 +13,7 @@
 未來我想會轉變成家人關係吧！！其實我一直在思考基隆可以為我們或是下一代帶來些什麼，是不是能有更多的年輕人可以留在這座城市打造不一樣的環境，或是許多的老味道是否有人傳承，不讓它消失！覺得這座城市有很多值得被流傳下去的故事，等待我們去把它紀錄。
 
     `" />
-    <articleImg :width="'60%'" :img="`img/star/person2.png`" />
+    <articleImg :marginTop="'100px'" :marginBottom="'50px'" :width="'60%'" :img="`img/star/person2.png`" />
     <articleTitle :title="`李隆進 / 文安里里長 / 70歲`" />
     <articleText :text="`
     我民國43年出生，是在基隆落地生根土生土長的第四代，家族五代，世代居住在基隆。 阿公在日治時期從宜蘭市舉家移居基隆水輕硿仔（現在的文安里），是基隆礦業繁盛時期的第一代移民，從事煤炭業的苦力頭（包工煤碳運輸工作），文安里當時地處玉田支線為基隆煤礦送往全省重要的集散地之一。<br><br>
@@ -21,7 +21,7 @@
 基隆對我來說就像是老朋友般的存在。我是個懷舊的人，時代變遷，人與人的相處方式已不同以往，懷念過往左鄰右舍樓上樓下彼此分享食物和互助相扶照顧的那一份感情與感動。
 
     `" />
-    <articleImg :width="'60%'" :img="`img/star/person3.png`" />
+    <articleImg :marginTop="'100px'" :marginBottom="'50px'" :width="'60%'" :img="`img/star/person3.png`" />
     <articleTitle :title="`林書豪 / 星濱山主理人 / 38歲`" />
     <articleText :text="`
     抱持著對藝術的熱情，我一直遊走各地探索，尋找藝術與地方的可能，但當時會不顧一切的選擇基隆，單純是因為愛。<br><br>
@@ -29,21 +29,21 @@
 一路走來其實很不容易，但我始終相信藝術能為地方帶來活力，所以自詡是地方的引路人，讓創作者、想創業尋夢的人齊聚在正濱，共同參與地方的改變，這是我想做、正在做，也會持續做的事。
 
     `" />
-    <articleImg :width="'60%'" :img="`img/star/person4.png`" />
+    <articleImg :marginTop="'100px'" :marginBottom="'50px'" :width="'60%'" :img="`img/star/person4.png`" />
     <articleTitle :title="`黃太任 / 勝利巷韓僑 / 77歲`" />
     <articleText :text="`
     我在勝利巷住了超過半世紀，1971年從韓國漢城（現在的首爾）渡洋千里遠嫁至台灣基隆，原以為婚後可以在家全職家庭主婦，因為當時經濟因素的關係，嫁到台灣後，在公公的期望下便繼續婚前的美髮工作，遂經營了一家文化美容院。<br><br>
 在基隆扎根多年，台灣已是第二個家。身體早已適應多雨潮濕的氣候，韓國的寒冷氣候早已不適應，有機會回韓國探望高齡97歲的老母親也多選溫暖的4, 5月北返。我對台灣人的印象都非常好，覺得普遍待人和善，好相處。因為在市場經營美容院也結識了很多客人，久了就成了很好的老朋友。就如同我和基隆的關係，是認識相處很久的老朋友一般熟識自然。
 
     `" />
-    <articleImg :width="'60%'" :img="`img/star/person5.png`" />
+    <articleImg :marginTop="'100px'" :marginBottom="'50px'" :width="'60%'" :img="`img/star/person5.png`" />
     <articleTitle :title="`葉恩佑 / 學生 / 17 歲`" />
     <articleText :text="`
     基隆和我的關係，可以說是最好的朋友。就算偶爾離開基隆到其他城市遊玩，即使其他城市再好，我依舊覺得基隆是我最後會回到的地方，就像最好的朋友有不好的部分，但是我依然選擇包容，並且認為我跟他還是最合的來，並且不會輕易離開。<br><br>
 過去與現在的基隆，我感覺不太一樣。過去的我可能因為還小，還無法感受基隆的好，但隨著時間推進，基隆不但進步許多，我在這個年紀也感受非常深，能住在一座有許多美食以及放鬆的海邊是一件很幸福的事。
 
     `" />
-    <articleImg :width="'60%'" :img="`img/star/person6.png`" />
+    <articleImg :marginTop="'100px'" :marginBottom="'50px'" :width="'60%'" :img="`img/star/person6.png`" />
     <articleTitle :title="`Francis / 古巴藝術家 / 45歲`" />
     <articleText :text="`
     2017 年底來到基隆，是因為太太的關係，我們決定定居在她的家鄉。<br><br>
@@ -51,7 +51,7 @@
 對我來說藝術是一種很重要的交流方式，不需要言語，是打開感官的媒介，不只是繪畫、音樂也是如此。所以未來會想要跟這邊的藝術家有更多的互動，透過藝術跟基隆產生關係，期待基隆也能成為一個隨處可見藝術的城市。
 
     `" />
-    <articleImg :width="'60%'" :img="`img/star/person7.png`" />
+    <articleImg :marginTop="'100px'" :marginBottom="'50px'" :width="'60%'" :img="`img/star/person7.png`" />
     <articleTitle :title="`Mei / 印尼移工 / 30歲`" />
     <articleText :text="`
     我平常都在公寓大廈照顧阿嬤，以前在印尼比較多人，小孩也比較多，台灣的小孩很少，印尼人的眼睛也比較大。基隆的冬天會下雨，非常冷，一年有三個月都好冷。印尼會下雨，但是不會冷。<br><br>

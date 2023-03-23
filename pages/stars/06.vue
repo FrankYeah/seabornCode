@@ -1,7 +1,7 @@
 <template>
   <articleContent
     :type="`star`"
-    :title="`每座燈塔<br>都是獨一無二的眼睛`"
+    :title="`每座燈塔都是<br>獨一無二的眼睛`"
     :name="`
       文、圖：鄭十一
     `"
