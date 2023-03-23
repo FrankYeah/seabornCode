@@ -41,7 +41,7 @@ const props = defineProps(
       text-align: justify;
 
       &:hover {
-        opacity: 0.8;
+        opacity: 0.6;
       }
     }
 

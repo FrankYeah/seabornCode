@@ -17,6 +17,7 @@ const props = defineProps(
 
 .article-right-img {
   width: 100%;
+  padding: 0px 40px;
   margin: 60px auto 60px;
   background-repeat: no-repeat;
   background-size: cover;

@@ -5,7 +5,7 @@
     :name="`
     `"
   >
-    <articleImg :marginTop="'0px'" :width="'60%'" :img="`img/star/person1.png`" />
+    <articleImg :marginTop="'20px'" :width="'60%'" :img="`img/star/person1.png`" />
     <articleTitle :title="`葉姿辰 / 通勤族 /  23 歲`" />
     <articleText :text="`
     我小時候跟著阿公阿嬤在市場玩耍，小學在聖心讀書，和同學六年的感情，在上國中時被父母帶去台北讀書那刻起全部消失，開啟每天在人生地不熟的台北通勤的人生！國高中時每天6:30起床到台北讀書，18:00放學回家，更多時候是21:00才放學，基隆像是民宿般的存在，像過客短暫停留。<br><br>

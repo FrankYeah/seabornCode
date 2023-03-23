@@ -14,7 +14,7 @@ const props = defineProps(
 
 .article-right-text {
     margin-top: 20px;
-    font-size: 18px;
+    padding: 0px 40px;
     letter-spacing: 1.3px;
     line-height: 1.4;
     text-align: justify;

@@ -61,11 +61,12 @@ const handleScroll = () => {
       noFix.value = true
     }
   } else {
-    if(distanceToBottom > windowHeight - 400){
-      noFix.value = false
-    }else{
-      noFix.value = true
-    }
+    noFix.value = true
+    // if(distanceToBottom > windowHeight - 400){
+    //   noFix.value = false
+    // }else{
+    //   noFix.value = true
+    // }
   }
 }
 
@@ -163,7 +164,7 @@ const props = defineProps(
       margin-right: 10px;
 
       &:hover {
-        opacity: 0.8;
+        opacity: 0.6;
       }
     }
 

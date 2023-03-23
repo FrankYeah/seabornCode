@@ -138,7 +138,7 @@
       cursor: pointer;
 
       &:hover {
-        opacity: 0.8;
+        opacity: 0.6;
       }
     }
   }
@@ -162,7 +162,6 @@
 
     &-text {
       margin-top: 20px;
-      font-size: 20px;
       line-height: 1.5;
       letter-spacing: 1.4px;
       text-align: justify;
@@ -208,7 +207,7 @@
         margin-bottom: 20px;
 
         &:hover {
-          opacity: 0.8;
+          opacity: 0.6;
         }
       }
     }

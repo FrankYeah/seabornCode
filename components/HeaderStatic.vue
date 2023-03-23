@@ -10,16 +10,17 @@
           <div @click="isShowProject = !isShowProject"
             @mouseover="isShowProject = !isShowProject"
             class="header-item-title-hover"
-          >期刊</div>
+          >Vol.</div>
           <img class="header-item-img" src="@/assets/img/icon/arrow.png" alt="arrow">
           <div v-if="isShowProject"
             @click="closeProjectShop"
-            @mouseover="isShowProject = true"
-            @mouseleave="isShowProject = false"
             class="header-item-box"
           >
+
+            <!-- @mouseover="isShowProject = true"
+            @mouseleave="isShowProject = false" -->
             <nuxt-link to="/vol-star">
-              <div class="header-item-box-text">仰望北極星</div>
+              <div class="header-item-box-text">vol.01仰望北極星</div>
             </nuxt-link>
             <!-- <nuxt-link to="/book">
               <div class="header-item-box-text">書籍</div>
@@ -28,15 +29,15 @@
         </div>
 
         <nuxt-link class="header-link" to="/#acitivity">
-          <div class="header-text">活動</div>
+          <div class="header-text">event</div>
         </nuxt-link>
         <div class="header-text">｜</div>
         <nuxt-link class="header-link" to="/#about">
-          <div class="header-text">關於</div>
+          <div class="header-text">about</div>
         </nuxt-link>
         <div class="header-text">｜</div>
         <nuxt-link class="header-link" to="/#contact">
-          <div class="header-text">聯絡</div>
+          <div class="header-text">contact</div>
         </nuxt-link>
       </div>
     </div>
@@ -59,7 +60,7 @@ function closeProjectShop() {
   position: fixed;
   top: 0px;
   width: 100vw;
-  height: 200px;
+  height: 160px;
   background-image: url('../assets/img/bg/blue_small.png');
   background-repeat: no-repeat;
   background-size: cover;
@@ -82,7 +83,7 @@ function closeProjectShop() {
     width: 280px;
 
     &:hover {
-      opacity: 0.8;
+      opacity: 0.6;
     }
   }
 
@@ -92,7 +93,7 @@ function closeProjectShop() {
   }
 
   &-item {
-    margin: 0px 2px;
+    margin: 0px 6px;
     font-size: 20px;
   }
 
@@ -120,7 +121,7 @@ function closeProjectShop() {
     left: -40px;
     width: 120px;
     padding: 10px 8px;
-    background: white;
+    background: #c5d0e1;
     border-radius: 2px;
 
     & a {
@@ -146,11 +147,11 @@ function closeProjectShop() {
   }
 
   &-text {
-    margin: 0px 2px;
+    margin: 0px 10px;
     font-size: 20px;
 
     &:hover {
-      opacity: 0.8;
+      opacity: 0.6;
     }
   }
 }
@@ -196,7 +197,7 @@ function closeProjectShop() {
 
   &-item-box {
     top: 20px;
-    width: 100px;
+    width: 120px;
     padding: 5px 8px;
 
     & a {
@@ -221,6 +222,7 @@ function closeProjectShop() {
   }
 
   &-text {
+    margin: 0px 0px;
     font-size: 12px;
   }
 }

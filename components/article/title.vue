@@ -1,11 +1,11 @@
 <template>
-    <div class="article-right-title" v-html="props.title"></div>
+    <div class="article-right-title" :style="`margin-top:${props.marginTop}`" v-html="props.title"></div>
 </template>
 
 <script setup>
 
 const props = defineProps(
-  ['title']
+  ['title', 'marginTop']
 )
 
 </script>
@@ -13,7 +13,8 @@ const props = defineProps(
 <style lang="scss" scoped>
 
 .article-right-title {
-    margin-top: 30px;
+    margin-top: 60px;
+    padding: 0px 40px;
     font-size: 28px;
     text-align: justify;
 }
