@@ -1,7 +1,7 @@
 <template>
   <articleContent
     :type="`star`"
-    :title="`賞月觀星的美與樂趣`"
+    :title="`賞月觀星的<br>美與樂趣`"
     :name="`
       文：西打藍<br>
       圖：武崙國中天文台
