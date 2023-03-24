@@ -170,6 +170,7 @@ const props = defineProps(
     }
 
     &-all {
+      justify-content: center;
       margin: 40px auto 0px;
     }
 
