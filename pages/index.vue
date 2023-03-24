@@ -28,7 +28,7 @@
       </div>
     </div>
 
-    <div class="index-bg"></div>
+    <!-- <div class="index-bg"></div> -->
 
     <div id="about" class="index-about">
       <div class="index-about-head">關於《 seaborn 》</div>
@@ -270,10 +270,11 @@
   }
 
   &-about {
-    top: -150px;
+    position: static;
+    margin: 30px auto 0px;
     width: 95vw;
     padding: 40px 40px 100px;
-    // background-image: url('../assets/img/bg/blue_big_m.png');
+    background-image: url('../assets/img/bg/blue_big_m.png');
 
     &-head {
       font-size: 20px;
@@ -290,7 +291,7 @@
     width: 95vw;
     height: 400px;
     flex-direction: column;
-    margin: -150px auto 50px;
+    margin: 0px auto 50px;
     padding: 50px 50px 0px;
     background-image: url('../assets/img/index/contact_bg_m.png');
 
