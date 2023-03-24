@@ -29,7 +29,7 @@
 @media( max-width: 1023px ){
 
 .footer {
-  padding: 10px 0px 30px;
+  padding: 30px 0px 30px;
 
   &-icon {
     width: 200px;

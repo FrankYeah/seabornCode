@@ -12,7 +12,7 @@
           <div class="vol-about-vol" v-html="props.vol"></div>
         </div>
         <div class="vol-about-text">
-        {{ props.text }}...<span class="vol-about-more">more</span>
+        {{ props.text }}...<nuxt-link :to="props.link" class="vol-about-more">more</nuxt-link>
         </div>
       </div>
     </div>
