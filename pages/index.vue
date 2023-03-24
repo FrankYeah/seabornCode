@@ -150,7 +150,7 @@
     width: 70vw;
     margin: auto;
     padding: 150px 150px 200px;
-    background-image: url('../assets/img/bg/blue_big.png');
+    background-image: url('../assets/img/bg/light_blue_g.png');
     background-repeat: no-repeat;
     background-size: cover;
     background-position-x: center;
@@ -175,7 +175,7 @@
     height: 500px;
     display: flex;
     justify-content: center;
-    margin: -200px auto 50px;
+    margin: -180px auto 50px;
     padding: 300px 0px 0px;
     background-image: url('../assets/img/index/contact_bg.png');
     background-repeat: no-repeat;
@@ -273,7 +273,7 @@
     top: -150px;
     width: 95vw;
     padding: 40px 40px 100px;
-    background-image: url('../assets/img/bg/blue_big_m.png');
+    // background-image: url('../assets/img/bg/blue_big_m.png');
 
     &-head {
       font-size: 20px;

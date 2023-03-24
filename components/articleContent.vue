@@ -66,6 +66,11 @@ const handleScroll = () => {
 }
 
 onMounted(() => {
+  const windowHeight = window.innerHeight;
+  const documentHeight = document.documentElement.scrollHeight;
+  const scrollTop = window.scrollY || window.pageYOffset;
+  const distanceToBottom = documentHeight - (scrollTop + windowHeight);
+  
   currentUrl.value = `${window.location.href}`
   document.addEventListener('scroll', handleScroll)
   if(window.innerWidth > 1023) {
