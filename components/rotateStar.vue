@@ -175,6 +175,11 @@ const articles = reactive([
     &-slide {
       display: flex;
       justify-content: center;
+      cursor: pointer;
+
+      &:hover {
+          opacity: 0.6;
+      }
     }
 
     &-box {

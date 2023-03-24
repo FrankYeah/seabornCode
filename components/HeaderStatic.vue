@@ -106,6 +106,10 @@ function closeProjectShop() {
   &-item-title-hover {
     font-size: 20px;
     cursor: pointer;
+
+    &:hover {
+      opacity: 0.6;
+    }
   }
 
   &-item-img {
@@ -119,10 +123,11 @@ function closeProjectShop() {
     position: absolute;
     top: 30px;
     left: -40px;
-    width: 120px;
+    width: 170px;
     padding: 10px 8px;
     background: #c5d0e1;
     border-radius: 2px;
+    text-align: center;
 
     & a {
       

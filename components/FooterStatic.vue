@@ -1,7 +1,7 @@
 <template>
   <div class="footer">
     <a href="https://www.ocam.org.tw/" target="_blank">
-      <img class="footer-icon" src="@/assets/img/icon/yangming_logo.png" alt="yangming">
+      <img class="footer-icon" src="@/assets/img/icon/yangming.png" alt="yangming">
     </a>
   </div>
 </template>
@@ -21,7 +21,7 @@
   align-items: center;
 
   &-icon {
-    width: 80px;
+    width: 240px;
   }
 
 }
@@ -32,7 +32,7 @@
   padding: 10px 0px 30px;
 
   &-icon {
-    width: 60px;
+    width: 200px;
   }
 
 }

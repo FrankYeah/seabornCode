@@ -1,14 +1,28 @@
 <template>
   <div class="vol">
     <div class="vol-star"></div>
-    <div class="vol-about">
-      <div class="vol-about-outer">
-        <img class="vol-about-img" :src="`${useAsset(props.bg)}`" alt="fb">
-        <div>
-          <div class="vol-about-head">關於本集</div>
-          <div class="vol-about-text" v-html="props.text"></div>
+    <div class="vol-about-outer">
+      <img class="vol-about-img" :src="`${useAsset(props.bg)}`" alt="fb">
+      <div class="vol-about-bg">
+        <div class="vol-about-row">
+          <div>
+            <div class="vol-about-title" v-html="props.title"></div>
+            <div class="vol-about-subtitle" v-html="props.subtitle"></div>
+          </div>
+          <div class="vol-about-vol" v-html="props.vol"></div>
+        </div>
+        <div class="vol-about-text">
+        {{ props.text }}...<span class="vol-about-more">more</span>
         </div>
       </div>
+    </div>
+
+    <div class="vol-about-all">
+      <preBox  class="vol-about-inner"
+        v-for="(article, index) in props.articles"
+        :key="index"
+        :article="article"
+      ></preBox>
     </div>
     
     <slot />
@@ -18,7 +32,7 @@
 <script setup>
 
 const props = defineProps(
-  ['link', 'title', 'bg', 'text']
+  ['link', 'title', 'subtitle', 'vol', 'bg', 'text', 'articles']
 )
 
 </script>
@@ -26,57 +40,77 @@ const props = defineProps(
 <style lang="scss" scoped>
 
 .vol {
-  margin-bottom: 150px;
+  padding-bottom: 150px;
+  background-color: #919191;
 
   &-star {
     position: relative;
     width: 100%;
     padding-top: 200px;
-
-    &-text {
-      position: absolute;
-      top: 200px;
-      right: 100px;
-      font-size: 28px;
-      text-align: justify;
-
-      &:hover {
-        opacity: 0.6;
-      }
-    }
-
   }
 
   &-about {
-    margin-top: -80px;
-    padding: 140px 100px 100px;
-    background-color: #999999;
 
     &-outer {
-      width: calc(100vw - 200px);
       display: flex;
-      justify-content: space-between;
-      align-items: flex-start;
-      margin: auto;
+      justify-content: center;
     }
 
     &-img {
       width: 400px;
-      margin-right: 100px;
     }
 
-    &-head {
-      width: 116px;
+    &-bg {
+      max-width: 800px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      padding: 60px;
+      background-color: #4C6E91;
+    }
+
+    &-row {
+      display: flex;
+      justify-content: space-between;
+    }
+
+    &-title {
       font-size: 28px;
       text-align: justify;
     }
 
-    &-text {
-      margin-top: 20px;
+    &-subtitle {
+      margin-top: 10px;
       font-size: 24px;
       text-align: justify;
     }
-    
+
+    &-vol {
+      font-size: 24px;
+    }
+
+    &-text {
+      font-size: 20px;
+      text-align: justify;
+    }
+
+    &-more {
+      text-decoration: underline;
+      font-size: 20px;
+    }
+
+    &-all {
+      max-width: 1220px;
+      margin: 120px auto 0px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+    }
+
+    &-inner {
+      margin: 0px 10px 60px;
+    }
   }
 
 }
@@ -84,49 +118,64 @@ const props = defineProps(
 @media( max-width: 1023px ){
 
 .vol {
-  margin-bottom: 150px;
+  padding-bottom: 50px;
 
   &-star {
     padding-top: 0px;
     margin-top: 20px;
-
-    &-text {
-      top: 140px;
-      right: 0px;
-      padding: 0px 6px;
-      font-size: 20px;
-    }
-
   }
 
   &-about {
-    margin-top: 0px;
-    padding: 80px 0px 30px;
 
     &-outer {
       flex-direction: column;
-      width: 100vw;
-      padding: 0px 40px;
+      align-items: center;
     }
 
     &-img {
-      max-width: 200px;
-      width: 100%;
-      margin: 0px auto;
+      width: 300px;
+      margin-top: 90px;
     }
 
-    &-head {
-      width: 100%;
+    &-bg {
+      margin-top: 30px;
+      padding: 30px;
+    }
+
+    &-row {
+      
+    }
+
+    &-title {
       font-size: 20px;
-      margin: 35px 0px 0px;
+    }
+
+    &-subtitle {
+      margin-top: 4px;
+      font-size: 20px;
+    }
+
+    &-vol {
+      font-size: 18px;
     }
 
     &-text {
-      width: 100%;
-      margin-top: 20px;
-      font-size: 14px;
+      margin-top: 40px;
+      font-size: 12px;
     }
-    
+
+    &-more {
+      text-decoration: underline;
+      font-size: 12px;
+    }
+
+    &-all {
+      margin: 40px auto 0px;
+    }
+
+    &-inner {
+      margin: 0px 10px 30px;
+    }
   }
 
 }
