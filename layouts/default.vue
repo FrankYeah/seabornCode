@@ -12,6 +12,13 @@
 const title = ref('seaborn')
 const description = ref('以這座海港城市作為起點與歸屬，航向世界、航向未知，以不怕犯難的冒險精神前行，這也是刊物取名《seaborn》的由來。')
 
+onMounted(() => {
+  // 禁用右鍵
+  document.oncontextmenu = new Function("event.returnValue=false");
+  // 禁用選擇
+  document.onselectstart = new Function("event.returnValue=false");
+})
+
 // This will be reactive even you change title/description above
 useHead({
   title,

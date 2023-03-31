@@ -39,6 +39,9 @@
         <nuxt-link class="header-link" to="/#contact">
           <div class="header-text">contact</div>
         </nuxt-link>
+        <a class="header-link" href="https://www.ocam.org.tw/" target="_blank">
+          <img class="header-img" src="@/assets/img/icon/yangming_icon.png" alt="">
+        </a>
       </div>
     </div>
   </div>
@@ -159,6 +162,11 @@ function closeProjectShop() {
       opacity: 0.6;
     }
   }
+
+  &-img {
+    width: 56px;
+    margin: 4px 0px 0px 10px;
+  }
 }
 
 @media( max-width: 1023px ){
@@ -229,6 +237,11 @@ function closeProjectShop() {
   &-text {
     margin: 0px 0px;
     font-size: 12px;
+  }
+
+  &-img {
+    width: 30px;
+    margin: 2px 0px 0px 6px;
   }
 }
 
