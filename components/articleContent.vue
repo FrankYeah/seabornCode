@@ -142,7 +142,7 @@ const props = defineProps(
     }
 
     &-title {
-      font-size: 28px;
+      font-size: 26px;
       text-align: justify;
     }
 

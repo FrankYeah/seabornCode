@@ -18,12 +18,11 @@
     其實台灣也有自己的原生胡椒植物，說到這裡你可能會聯想到原住民常使用的山胡椒「馬告」。雖然馬告與胡椒都可當作辛香料使用，但以植物分類來說，真正與胡椒同科同屬的是「風藤」。<br><br>
     風藤一般生長在低中海拔，在基隆也是常見的植物之一。同樣帶有胡椒的香氣之外，風藤的氣味還有防蚊效果，更是祛風濕止痛的良藥。原住民會當作調味料使用，常是用在烤肉，增加香氣。<br><br>
     `" />
-    <articleImg :img="`img/flavor/pepper2.png`" />
+    <articleImg :img="`img/flavor/pepper2.jpg`" />
     <articleText :text="`
     風藤<br><br>
     一般稱為台灣胡椒或大胡椒。是胡椒科胡椒屬的爬藤類，又名山荖葉。其他還有如恒春風藤（Kawakamii Pepper）、薄葉風藤（Small-leaved Pepper）、大圓葉胡椒，葉子可作為野菜食用。<br><br>
     `" />
-    <articleImg :img="`img/flavor/road1.png`" />
     
   </articleContent>
 </template>

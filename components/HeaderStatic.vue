@@ -20,10 +20,10 @@
             <!-- @mouseover="isShowProject = true"
             @mouseleave="isShowProject = false" -->
             <nuxt-link to="/vol-star">
-              <div class="header-item-box-text">vol.01仰望北極星</div>
+              <div class="header-item-box-text">vol.01</div>
             </nuxt-link>
             <nuxt-link to="/vol-flavor">
-              <div class="header-item-box-text">vol.02追逐海上黃金</div>
+              <div class="header-item-box-text">vol.02</div>
             </nuxt-link>
             <!-- <nuxt-link to="/book">
               <div class="header-item-box-text">書籍</div>
@@ -129,7 +129,7 @@ function closeProjectShop() {
     position: absolute;
     top: 30px;
     left: -40px;
-    width: 186px;
+    width: 86px;
     padding: 10px 8px;
     background: #c5d0e1;
     border-radius: 2px;
@@ -213,7 +213,7 @@ function closeProjectShop() {
 
   &-item-box {
     top: 20px;
-    width: 147px;
+    width: 70px;
     padding: 5px 8px;
 
     & a {
