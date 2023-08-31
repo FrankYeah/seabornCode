@@ -25,6 +25,9 @@
             <nuxt-link to="/vol-flavor">
               <div class="header-item-box-text">vol.02</div>
             </nuxt-link>
+            <nuxt-link to="/vol-travel">
+              <div class="header-item-box-text">vol.03</div>
+            </nuxt-link>
             <!-- <nuxt-link to="/book">
               <div class="header-item-box-text">書籍</div>
             </nuxt-link> -->

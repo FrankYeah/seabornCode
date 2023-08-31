@@ -34,6 +34,7 @@
     <!-- component -->
     <rotateStar v-if="props.type == 'star'" style="background-color: #999;" class="article-rotate" />
     <rotateFlavor v-if="props.type == 'flavor'" style="background-color: #999;" class="article-rotate" />
+    <rotateTravel v-if="props.type == 'travel'" style="background-color: #999;" class="article-rotate" />
   </div>
 </template>
 
