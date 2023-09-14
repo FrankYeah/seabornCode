@@ -29,13 +29,13 @@ const articles = reactive([
     img: 'img/travel-main/2.jpg'
   },
   {
-    head: '《海》<br>一本通往世界的輪船旅遊雜誌',
+    head: '《海》<br>一本通往世界的<br>輪船旅遊雜誌',
     text: '工業革命後，蒸汽機被廣泛使用於鐵道運輸以及航運的交通工具',
     href: 'travels/03',
     img: 'img/travel-main/3.jpg'
   },
   {
-    head: '金馬賓館與韋昌嶺的軍旅記憶',
+    head: '金馬賓館與韋昌嶺的<br>軍旅記憶',
     text: '「他抽中金馬獎了！是馬祖！」營區中，此起彼落的歡呼聲不絕於耳',
     href: 'travels/04',
     img: 'img/travel-main/4.jpg'

@@ -10,14 +10,25 @@
 然而，這一聲又一聲的「獲獎名單」卻讓一群二十歲出頭的年輕人，心情逐漸沉入谷底。剛剛被喊到名字的人，將從台中成功嶺上車，前往基隆的韋昌嶺，等待台灣男兒的是，一生難以忘懷的成年體驗：服兵役。
 
     `" />
-    <articleImg :img="`img/travel/army1.jpg`" />
+    <articleImg :marginBottom="'10px'" :img="`img/travel/army1.jpg`" />
+
+    <articleHint :text="`
+    1970年代第851梯金門陸軍通信兵合影`" />
 
     <articleText :text="`「我們那一批 60 年次的人，很多都是到馬祖，因為馬祖那時候缺兵，很久沒補兵進去。」曾在馬祖擔任陸軍，今年 52 歲的吳豐猷回憶。<br><br>
 前往馬祖當兵的阿兵哥，他們對基隆的記憶，不是廟口夜市、熱鬧的漁港，而是氣氛嚴肅的韋昌嶺營區。韋昌嶺位於基隆信義國中長長的山坡上，那是一條夏天酷熱、冬天冒著風雨走的長長爬坡。營區外看去一座高聳的水泥圍牆，一般人難以窺探其中，顯得相當神秘。<br><br>
 吸著有些潮濕的空氣，懷著對未來當兵生活的憂慮，和同梯的同伴一同走進營區。他們在韋昌嶺的回憶是等待，等著接送到馬祖的船班，彷彿置身於一處異世界。
 
     `" />
-    <articleImg :img="`img/travel/army2.jpg`" />
+    <articleImg :marginBottom="'10px'" :img="`img/travel/army2.jpg`" />
+
+    <articleHint :text="`
+    補給船「搶灘」<br>
+創作者：陳高志<br>
+建檔單位：連江縣政府文化處
+`" />
+
+    <articleTitle :title="`承載憂慮、未知與回憶`" />
 
     <articleText :text="`搭船那天，並沒有想像中浪漫，而是充滿柴油與鐵鏽味，船上伴隨著其他阿兵哥暈船的嘔吐聲，一路搖搖晃晃地前往外島。<br><br>
 「我們是搭 526 運輸艦出航，算是西岸碼頭最大艘的船艦，一旁還有驅逐艦護航。那天，是半夜開船，風浪特別大，大家都緊張到睡不著，整晚聽著可樂罐從左晃到右，瓶罐滾來滾去的聲音。」吳豐猷形容當年坐船的緊張心情。<br><br>
@@ -25,7 +36,12 @@
 
 
     `" />
-    <articleImg :img="`img/travel/army3.png`" />
+    <articleImg :marginBottom="'10px'" :img="`img/travel/army3.png`" />
+
+    <articleHint :text="`
+    乘船證<br>
+建檔單位：連江縣政府文化處
+`" />
 
      <articleTitle :title="`夜宿金馬賓館的體驗`" />
     <articleText :text="`而金馬賓館又是基隆和馬祖的另一段緣分。座落基隆碼頭附近的金馬賓館，曾是馬祖外島士兵等候搭船的夜宿地點，能容納 160 餘人。當時馬祖的鄉親，也有些人搭船返鄉，所以需要在金馬賓館登記。<br><br>
@@ -34,7 +50,13 @@
 
     
     `" />
-    <articleImg :img="`img/travel/army4.jpg`" />
+    <articleImg :marginBottom="'10px'" :img="`img/travel/army4.jpg`" />
+
+    <articleHint :text="`
+    外島兵金馬賓館買水果<br>
+創作者：馬祖之光<br>
+建檔單位：連江縣政府文化處
+`" />
     
   </articleContent>
 </template>

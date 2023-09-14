@@ -1,7 +1,7 @@
 <template>
   <articleContent
     :type="`travel`"
-    :title="`出發吧向著研究的航道！`"
+    :title="`出發吧<br>向著研究的航道！`"
     :name="`
       文、圖：鄭十一
     `"
