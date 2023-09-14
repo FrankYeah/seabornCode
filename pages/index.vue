@@ -21,7 +21,7 @@
         <div class="index-movie-inner">
           <div class="index-movie-head">近期活動</div>
           <img class="index-movie-img" src="@/assets/img/travel/activity1.jpeg" alt="fb">
-          <a href="https://ocam.fonticket.com/ticket/9nxGMZgEAVXgYq1l" target="_blank">
+          <a href="https://ocam.fonticket.com/ticket/oGzynZnA8MR694dp" target="_blank">
           <div class="index-movie-btn">報名連結</div>
           </a>
         </div>
