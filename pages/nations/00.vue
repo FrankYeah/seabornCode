@@ -1,6 +1,6 @@
 <template>
   <articleContent
-    :type="`travel`"
+    :type="`nation`"
     :title="`關於本集`"
     :name="`
       

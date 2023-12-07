@@ -94,46 +94,46 @@ onBeforeUnmount(() => {
 
 const articles = reactive([
   {
-    head: '從絲綢之路到海上絲路<br>香料的世界之旅',
-    text: '西元1415年以前，歐洲人對東方世界的印象，可說是充滿著神秘與魔幻，從東方來的各式香料',
-    href: 'flavors/01',
-    img: 'img/flavor-main/1.png'
+    head: '從城市規劃<br>借鏡荷蘭鹿特丹市港文化',
+    text: '第二次世界大戰鹿特丹遭德國轟炸，城市被完全炸毀',
+    href: 'nations/01',
+    img: 'img/nation-main/1.jpg'
   },
   {
-    head: '改變世界歷史的胡椒',
-    text: '日常生活中，大至飯店餐廳，小到巷口路邊麵攤，桌上都會準備幾瓶辛香料調味品，其中最常見的大概就是胡椒了，可說是最普及的辛香料',
-    href: 'flavors/02',
-    img: 'img/flavor-main/2.png'
+    head: '如果說到利物浦<br>大家只記得披頭四',
+    text: '2012年7月，當時暫時離開工作四年多的職場，想在碩士語言課程開始前先在英國晃一圈',
+    href: 'nations/02',
+    img: 'img/nation-main/2.jpg'
   },
   {
-    head: '來自天堂的種子',
-    text: '以咖哩聞名的印度，是世界主要的香料產地，也是香料的善用者。從早餐的煎餅、中午的馬鈴薯',
-    href: 'flavors/03',
-    img: 'img/flavor-main/3.png'
+    head: '哈瓦那<br>到另一個多雨的哈瓦那',
+    text: '聽說1965年第一部來台灣取景的好萊塢電影《聖保羅砲艇》曾到基隆拍片',
+    href: 'nations/03',
+    img: 'img/nation-main/3.jpg'
   },
   {
-    head: '一味醬料<br>與基隆的千絲萬縷',
-    text: '走進超市，貨架上擺滿蠔油、XO醬、老乾媽等各式醬料，這些瓶瓶罐罐深入廚房，已是人們的日常',
-    href: 'flavors/04',
-    img: 'img/flavor-main/4.png'
+    head: '雨霧 vs 天晴<br>漫談南北港都',
+    text: '「大家看看你們的前方，這裡是全台灣最大的港口，也曾經是全世界第三大的港口─高雄。」',
+    href: 'nations/04',
+    img: 'img/nation-main/4.jpg'
   },
   {
-    head: '基隆的咖哩 世界的咖哩',
-    text: '日本在明治維新時期崇尚西洋文化，引進了洋食咖哩，在日本蔚為流行。日治時期，咖哩開始走進台灣知識份子的廚房',
-    href: 'flavors/05',
-    img: 'img/flavor-main/5.png'
+    head: '離不開海的人生路線',
+    text: '「第一次跑791這條路線時非常興奮，因為這條路上有太多回憶了。」',
+    href: 'nations/05',
+    img: 'img/nation-main/5.jpg'
   },
   {
-    head: '基隆小吃身世解密<br>來自鹿兒島的薩摩揚',
-    text: '「蒲鉾」是日本歷史悠久且具有傳統意義的魚漿加工食品，包括蒸魚板、烤竹輪、魚丸乃至蟹味棒等',
-    href: 'flavors/06',
-    img: 'img/flavor-main/6.png'
+    head: '流動的城市',
+    text: '基隆，地處山海交匯之地，擁有獨特的自然景觀之外，還有不同時期的移居者帶來的家鄉味',
+    href: 'nations/06',
+    img: 'img/nation-main/6.jpg'
   },
   {
-    head: '五〇年代委託行<br>異國食品尋寶地',
-    text: '對於不出國也可以三餐吃異國料理的現代人來說，可能很難想像，台灣在開放自由觀光之前，一瓶日本味精',
-    href: 'flavors/07',
-    img: 'img/flavor-main/7.png'
+    head: '你不知道的基隆港',
+    text: '如果你從小住在基隆，一定很常看見有人在港邊釣魚，這是基隆的港口文化之一',
+    href: 'nations/07',
+    img: 'img/nation-main/7.jpg'
   }
 ])
 

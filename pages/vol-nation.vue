@@ -17,40 +17,46 @@
 
 const articles = reactive([
   {
-    head: '漂移之島',
-    text: '我在碼頭邊靜靜等候，滿心期待，漂移之島，何時載我去往夢裡的遠方？',
-    href: 'travels/01',
-    img: 'img/travel-main/1.jpg'
+    head: '從城市規劃<br>借鏡荷蘭鹿特丹市港文化',
+    text: '第二次世界大戰鹿特丹遭德國轟炸，城市被完全炸毀',
+    href: 'nations/01',
+    img: 'img/nation-main/1.jpg'
   },
   {
-    head: '遠洋貨輪之旅<br>繞行半顆地球看世界',
-    text: '我為了報導台灣走在國際前端的海洋產業——遠洋漁業和貨櫃海運',
-    href: 'travels/02',
-    img: 'img/travel-main/2.jpg'
+    head: '如果說到利物浦<br>大家只記得披頭四',
+    text: '2012年7月，當時暫時離開工作四年多的職場，想在碩士語言課程開始前先在英國晃一圈',
+    href: 'nations/02',
+    img: 'img/nation-main/2.jpg'
   },
   {
-    head: '《海》<br>一本通往世界的<br>輪船旅遊雜誌',
-    text: '工業革命後，蒸汽機被廣泛使用於鐵道運輸以及航運的交通工具',
-    href: 'travels/03',
-    img: 'img/travel-main/3.jpg'
+    head: '哈瓦那<br>到另一個多雨的哈瓦那',
+    text: '聽說1965年第一部來台灣取景的好萊塢電影《聖保羅砲艇》曾到基隆拍片',
+    href: 'nations/03',
+    img: 'img/nation-main/3.jpg'
   },
   {
-    head: '金馬賓館與韋昌嶺的<br>軍旅記憶',
-    text: '「他抽中金馬獎了！是馬祖！」營區中，此起彼落的歡呼聲不絕於耳',
-    href: 'travels/04',
-    img: 'img/travel-main/4.jpg'
+    head: '雨霧 vs 天晴<br>漫談南北港都',
+    text: '「大家看看你們的前方，這裡是全台灣最大的港口，也曾經是全世界第三大的港口─高雄。」',
+    href: 'nations/04',
+    img: 'img/nation-main/4.jpg'
   },
   {
-    head: '神明的海上行旅',
-    text: '許多靠海為生的地方島民，都是媽祖與王爺的信徒，在基隆當然也不例外',
-    href: 'travels/05',
-    img: 'img/travel-main/5.jpg'
+    head: '離不開海的人生路線',
+    text: '「第一次跑791這條路線時非常興奮，因為這條路上有太多回憶了。」',
+    href: 'nations/05',
+    img: 'img/nation-main/5.jpg'
   },
   {
-    head: '出發吧向著研究的航道！',
-    text: '說到出海，我們大多想到的是捕魚、船員跑船，或夢想成為海賊王的魯夫',
-    href: 'travels/06',
-    img: 'img/travel-main/6.jpg'
+    head: '流動的城市',
+    text: '基隆，地處山海交匯之地，擁有獨特的自然景觀之外，還有不同時期的移居者帶來的家鄉味',
+    href: 'nations/06',
+    img: 'img/nation-main/6.jpg'
+  },
+  {
+    head: '你不知道的基隆港',
+    text: '如果你從小住在基隆，一定很常看見有人在港邊釣魚，這是基隆的港口文化之一',
+    href: 'nations/07',
+    img: 'img/nation-main/7.jpg'
   }
 ])
 
