@@ -28,6 +28,9 @@
             <nuxt-link to="/vol-travel">
               <div class="header-item-box-text">vol.03</div>
             </nuxt-link>
+            <nuxt-link to="/vol-nation">
+              <div class="header-item-box-text">vol.04</div>
+            </nuxt-link>
             <!-- <nuxt-link to="/book">
               <div class="header-item-box-text">書籍</div>
             </nuxt-link> -->

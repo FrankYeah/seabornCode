@@ -12,7 +12,7 @@
         <img class="index-vol-img" src="@/assets/img/travel/cover.png" alt="fb">
       </nuxt-link>
       <nuxt-link to="/">
-        <img class="index-vol-img" src="@/assets/img/index/v4.png" alt="fb">
+        <img class="index-vol-img" src="@/assets/img/nation/cover.png" alt="fb">
       </nuxt-link>
     </div>
 
@@ -20,7 +20,7 @@
       <div class="index-movie-box">
         <div class="index-movie-inner">
           <div class="index-movie-head">近期活動</div>
-          <img class="index-movie-img" src="@/assets/img/travel/activity1.jpg" alt="fb">
+          <img class="index-movie-img" src="@/assets/img/nation/activity1.jpg" alt="fb">
           <a href="https://ocam.fonticket.com/ticket/oGzynZnA8MR694dp" target="_blank">
           <div class="index-movie-btn">報名連結</div>
           </a>
