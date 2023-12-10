@@ -14,7 +14,7 @@
     <articleImg :marginBottom="'10px'" :img="`img/nation/kao1.jpg`" />
 
     <articleHint :text="`
-      我是港都認識王的創辦人Kiwi，也是城市導覽員，我的團隊在高雄舉辦各式各樣的導覽行程，在港區田野調查發現港口的故事。`" />
+      我是港都認識王的創辦人Kiwi，也是城市導覽員，我的團隊在高雄舉辦各式各樣的導覽行程，在港區田野調查發現港口的故事。`" /><br>
 
            <articleText :text="`基隆及高雄兩座城市，都被稱之為「港都」，兩座因港而生的城市有著許多相似的地方，又因著兩地的風土和背景不同，各自發展出其特有的文化。<br><br>
 因為一趟的旅程把我帶到基隆，讓我看見了基隆港的迷人之處。這個城市跟港口融合為一，出火車站就可以看到大型遊輪停靠在港口，走在如夢境般的中山陸橋，在委託行商圈中閒蕩，並在夜晚的魚市看到了跟高雄港非常不同的風景。
@@ -49,7 +49,7 @@
 
     `" />
     
-    <articleImg :marginBottom="'10px'" :img="`img/nation/kao4.jpg`" />
+    <articleImg :marginBottom="'10px'" :img="`img/nation/kao4.jpeg`" />
 
      <articleTitle :title="`港口漫步觀察`" />
 

@@ -1,11 +1,11 @@
 <template>
   <articleContent
     :type="`nation`"
-    :title="`哈瓦那<br>到另一個多雨的哈瓦那
+    :title="`哈瓦那<br>到另一個<br>多雨的哈瓦那
 `"
     :name="`
       文：鄭十一<br>
-      圖：劉祐銘攝影美學、Anita Yeh、Francis Fernández Trujillo
+      圖：劉祐銘攝影美學、<br>Anita Yeh、<br>Francis Fernández Trujillo
     `"
   >
   
@@ -56,12 +56,12 @@
     <articleTitle :title="``" />
 
      <articleText :text="`因為哈瓦那一直是歐美人士熱愛的渡假勝地，我們有不少機會可以接觸觀光客，有些人喜歡融合了當代與非洲風格的古巴藝術，會私下購買我們的畫作，所以在古巴藝術家的收入可能比醫生好上許多，藝術也因此成為哈瓦那的特色。除此之外，我們更透過外國遊客認識世界，我與太太也是因此認識的。<br><br>
-雖然厭惡國家制度，但我依然深愛古巴。如果問我想把什麼帶到台灣，那一定是古巴的熱情。如果我可以帶什麼回去古巴，那一定是台灣的自由。<br><br><br>
+雖然厭惡國家制度，但我依然深愛古巴。如果問我想把什麼帶到台灣，那一定是古巴的熱情。如果我可以帶什麼回去古巴，那一定是台灣的自由。
     `" />
     
-    <articleImg :marginBottom="'10px'" :img="`img/nation/cuba6.jpg`" />
+    <articleImg :marginBottom="'10px'" :img="`img/nation/cuba6.jpg`" /><br><br>
 
-    <articleHint :text="`
+    <articleIntro :text="`
      城市簡介：哈瓦那(La Habana) 是古巴首都，也是加勒比海國家中最大的城市。18世紀哈瓦那是西班牙在新世界殖民地的重要港口， 19世紀隨著加勒比和北美各州之間的貿易增加，哈瓦那成為一個繁榮和時尚的城市。1959年古巴革命之後，古巴政府將發展中心轉移到農村等廣大地區，哈瓦那舊城的發展和改造逐漸停滯。`" />
 
     

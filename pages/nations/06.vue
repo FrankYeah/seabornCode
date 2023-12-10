@@ -3,8 +3,7 @@
     :type="`nation`"
     :title="`流動的城市<br>`"
     :name="`
-      文：涂佳豪<br>
-      圖：涂佳豪
+      文 / 圖：涂佳豪
     `"
   >
 
@@ -22,10 +21,10 @@
     <articleImg :marginBottom="'10px'" :img="`img/nation/photo2.jpg`" />
 
     <articleHint :text="`
-      岸上或是海上，大家都有自己與海相處的方式`" />
+      左：岸上或是海上，大家都有自己與海相處的方式`" />
 
       <articleHint :text="`
-      清晨，天還沒亮的時候，在大海的游泳池裡晨泳是基隆人的一大享受`" />
+      右：清晨，天還沒亮的時候，在大海的游泳池裡晨泳是基隆人的一大享受`" />
     
     <articleImg :marginBottom="'10px'" :img="`img/nation/photo3.jpg`" />
 
@@ -36,11 +35,11 @@
     <articleImg :marginBottom="'10px'" :img="`img/nation/photo4.jpg`" />
 
     <articleHint :text="`
-      夜越深，濕潤的地面反射著光芒，崁仔頂魚市場逐漸熱鬧起來，基隆夜生活才正要開始！<br><br>`" />
+      夜越深，濕潤的地面反射著光芒，崁仔頂魚市場逐漸熱鬧起來，基隆夜生活才正要開始！<br><br><br>`" />
 
      
 
-    <articleHint :text="`
+    <articleIntro :text="`
       關於 涂佳豪：<br>
 「攝影即是媒介，傳達內心感受」<br>
 出自基隆，喜歡海，喜歡老房子，喜歡沒走過的路。本身從事設計領域，但更喜歡透過攝影來觀察日常生活中的小細節，透過影像來保存那些即將流逝的氛圍與情感。

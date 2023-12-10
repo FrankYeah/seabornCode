@@ -3,7 +3,7 @@
     :type="`nation`"
     :title="`你不知道的基隆港<br>`"
     :name="`
-      文：西打藍、<br>
+      文：西打藍<br>
       圖：鄭十一
     `"
   >
@@ -17,6 +17,9 @@
     `" />
 
     <articleImg :marginBottom="'10px'" :width="'50%'" :img="`img/nation/know2.png`" />
+    <div style="margin: 20px 40px; color: blue; text-align:center;">
+    <a href="https://fishing.twport.com.tw/PWA/" style="color: #fafa8c;" target="_blank">垂釣預約連結</a>
+    </div>
 
      <articleTitle :title="`NO.2正港的放水燈施放地點`" />
 
