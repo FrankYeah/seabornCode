@@ -2,12 +2,14 @@
 <div class="article">
     <div class="article-bg"></div>
     <div class="article-outer">
+      <img class="article-top-img" :src="`${useAsset(props.banner)}`" alt="fb">
+      <div class="article-top-title" v-html="props.title"></div>
       <div class="article-inner">
         <div class="article-left">
           <div :class="['article-left-fix',
             {'article-left-nofix': noFix}]"
           >
-            <div class="article-left-title" v-html="props.title"></div>
+            
             <div class="article-left-text" v-html="props.name"></div>
             <div class="article-left-text2">
               加入書籤   +
@@ -59,7 +61,7 @@ const handleScroll = () => {
   console.log(distanceToBottom)
 
   if(window.innerWidth > 1023) {
-    if(distanceToBottom > windowHeight + 400){
+    if(distanceToBottom > windowHeight + 0){
       noFix.value = false
     }else{
       noFix.value = true
@@ -78,7 +80,7 @@ onMounted(() => {
   currentUrl.value = `${window.location.href}`
   document.addEventListener('scroll', handleScroll)
   if(window.innerWidth > 1023) {
-    if(distanceToBottom > windowHeight + 400){
+    if(distanceToBottom > windowHeight + 0){
       noFix.value = false
     }else{
       noFix.value = true
@@ -89,7 +91,7 @@ onMounted(() => {
 })
 
 const props = defineProps(
-  ['title', 'name', 'type']
+  ['title', 'name', 'type', "banner"]
 )
 
 
@@ -118,6 +120,18 @@ const props = defineProps(
     background-color: #595757;
   }
 
+  &-top-img {
+    width: 80%;
+    margin: auto;
+  }
+
+  &-top-title {
+    margin: 10px 0px 30px;
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+  }
+
   &-inner {
     width: 100vw;
     display: flex;
@@ -136,7 +150,7 @@ const props = defineProps(
     background-size: cover;
 
     &-fix {
-      position: fixed;
+      // position: fixed;
       width: 220px;
     }
 
@@ -207,6 +221,18 @@ const props = defineProps(
 
   &-outer {
     padding-bottom: 30px;
+  }
+
+  &-top-img {
+    width: 90%;
+    padding: 30px 0px 0px;
+  }
+
+  &-top-title {
+    margin: 10px 0px 0px;
+    font-size: 28px;
+    font-weight: bold;
+    text-align: center;
   }
 
   &-inner {

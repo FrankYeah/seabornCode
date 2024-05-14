@@ -14,9 +14,22 @@
       <nuxt-link to="/vol-nation">
         <img class="index-vol-img" src="@/assets/img/nation/cover.png" alt="fb">
       </nuxt-link>
+
+      <nuxt-link to="/vol-letter">
+        <img class="index-vol-img" src="@/assets/img/letter/v5_cover2.png" alt="fb">
+      </nuxt-link>
+      <nuxt-link to="/vol-flavor">
+        <img class="index-vol-img" src="@/assets/img/index/six.png" alt="fb">
+      </nuxt-link>
+      <nuxt-link to="/vol-travel">
+        <img class="index-vol-img" src="@/assets/img/index/seven.png" alt="fb">
+      </nuxt-link>
+      <nuxt-link to="/vol-nation">
+        <img class="index-vol-img" src="@/assets/img/index/eight.png" alt="fb">
+      </nuxt-link>
     </div>
 
-    <div id="acitivity" class="index-movie">
+    <!-- <div id="acitivity" class="index-movie">
       <div class="index-movie-box">
         <div class="index-movie-inner">
           <div class="index-movie-head">近期活動</div>
@@ -26,7 +39,7 @@
           </a>
         </div>
       </div>
-    </div>
+    </div> -->
 
     <!-- <div class="index-bg"></div> -->
 
@@ -77,11 +90,13 @@
     padding: 280px 0px 200px;
     margin: auto;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
 
     &-img {
       width: 250px;
+      margin-bottom: 40px;
       cursor: pointer;
     }
 

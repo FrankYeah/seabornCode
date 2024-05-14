@@ -31,15 +31,18 @@
             <nuxt-link to="/vol-nation">
               <div class="header-item-box-text">vol.04</div>
             </nuxt-link>
+            <nuxt-link to="/vol-letter">
+              <div class="header-item-box-text">vol.05</div>
+            </nuxt-link>
             <!-- <nuxt-link to="/book">
               <div class="header-item-box-text">書籍</div>
             </nuxt-link> -->
           </div>
         </div>
 
-        <nuxt-link class="header-link" to="/#acitivity">
+        <!-- <nuxt-link class="header-link" to="/#acitivity">
           <div class="header-text">event</div>
-        </nuxt-link>
+        </nuxt-link> -->
         <div class="header-text">｜</div>
         <nuxt-link class="header-link" to="/#about">
           <div class="header-text">about</div>
