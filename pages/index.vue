@@ -160,9 +160,10 @@
   }
 
   &-about {
+    // max-width: 1024px;
     position: relative;
     top: -150px;
-    width: 70vw;
+    // width: 70vw;
     margin: auto;
     padding: 150px 150px 200px;
     background-image: url('../assets/img/bg/light_blue_g.png');

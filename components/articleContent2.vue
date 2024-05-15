@@ -121,15 +121,16 @@ const props = defineProps(
   }
 
   &-top-img {
-    width: 80%;
+    max-width: 1100px;
+    width: 100%;
     margin: auto;
   }
 
   &-top-title {
-    margin: 10px 0px 30px;
+    max-width: 1100px;
+    margin: 10px auto 30px;
     font-size: 40px;
     font-weight: bold;
-    text-align: center;
   }
 
   &-inner {
@@ -224,15 +225,13 @@ const props = defineProps(
   }
 
   &-top-img {
-    width: 90%;
-    padding: 30px 0px 0px;
+    padding: 30px 10px 0px;
   }
 
   &-top-title {
-    margin: 10px 0px 0px;
+    margin: 10px auto 0px;
+    padding: 0px 10px;
     font-size: 28px;
-    font-weight: bold;
-    text-align: center;
   }
 
   &-inner {

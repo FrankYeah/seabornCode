@@ -1,11 +1,11 @@
 <template>
-    <div class="article-right-text" v-html="props.text"></div>
+    <div class="article-right-text" :style="`width: ${props.width}; margin-top:${props.marginTop}; margin-bottom:${props.marginBottom}`" v-html="props.text"></div>
 </template>
 
 <script setup>
 
 const props = defineProps(
-  ['text']
+  ['text', 'img', 'width', 'marginTop', 'marginBottom']
 )
 
 </script>

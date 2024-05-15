@@ -12,7 +12,7 @@
     <articleText :text="`1973年8月2日晚上，在離開沙烏地阿拉伯前，阿俊抓緊時間提筆，希望啟航前將家書交到代理行那兒，好能在9月3日抵達義大利時收到太太的回信。
     `" />
 
-    <articleImg :marginBottom="'10px'" :img="`img/letter/v5-01-02.jpg`" />
+    <articleImg :img="`img/letter/v5-01-02.jpg`" />
 
     <articleText :text="`字裡行間，不難看出阿俊會去跑船，是萬般無奈之下的選擇，家人對於他跑船兩年一次也沒回家，想必是十分不諒解。阿俊何嘗不想回家呢，但他只能告訴自己與太太再忍忍。<br><br>
 
@@ -21,20 +21,20 @@
       阿俊上了一艘10萬噸的油輪，當時吃水深的大船沒辦法停靠臺灣的港，這艘油輪主要跑日本到歐洲的航線，這一去就是三年。
     `" />
 
-    <articleImg :marginBottom="'10px'" :img="`img/letter/v5-01-03.jpg`" />
+    <articleImg :img="`img/letter/v5-01-03.jpg`" />
 
     <articleText :text="`結束三年的船期沒多久，阿俊又去跑船了。1974年10月5日他搭了飛機到日本大阪，再轉車到神戶搭輪船至四國高松，準備再次上船工作。<br><br>
 
     這次「維繁輪」出租給日本東燃化學工業株式會社，改成專跑日本-中東的固定航次，40天左右會回到日本一趟。除了飲食習慣較為相近之外，與親友聯繫也相對容易許多，阿俊因此十分歡喜。
     `" />
 
-    <articleImg :marginBottom="'10px'" :img="`img/letter/v5-01-04.jpg`" />
+    <articleImg :img="`img/letter/v5-01-04.jpg`" />
 
     <articleText :text="`起初阿俊一樣勤快地寫信訴說思念，後來發現更好的選項：打電話。許多家中瑣事能即時溝通之外，更重要的是能聽到太太的聲音，撫慰跑船時的孤獨。不過越洋電話總是昂貴的花費，因此阿俊多半在停留日本的時候才會打電話。
     `" />
 
     <articleImg :marginBottom="'10px'" :img="`img/letter/v5-01-05.jpg`" />
-    <articleImg :marginBottom="'10px'" :img="`img/letter/v5-01-06.jpg`" />
+    <articleImg :marginTop="'10px'" :img="`img/letter/v5-01-06.jpg`" />
 
     <articleText :text="`半年後「維繁輪」改跑歐、美航線，阿俊又開始頻繁寫信了。<br><br>
 
@@ -43,7 +43,7 @@
     或許是跑船的倦怠、離家太久的思念，他經常提及跑船的煎熬非常人能懂，但也是因為這份苦，才讓他開始懂得反省、收斂。
     `" />
 
-    <articleImg :marginBottom="'10px'" :img="`img/letter/v5-01-07.jpg`" />
+    <articleImg :img="`img/letter/v5-01-07.jpg`" />
 
     <articleText :text="`1971-1976年的跑船經歷，著實讓阿俊難忘。第一次上船時他28歲，本該是意氣風發的年紀，哪會想到有一天得去討海過生活。<br><br>
 
