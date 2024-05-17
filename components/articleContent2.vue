@@ -130,6 +130,7 @@ const props = defineProps(
   &-top-title {
     max-width: 1100px;
     margin: 10px auto 30px;
+    padding: 0px 0px 0px 40px;
     font-size: 40px;
     font-weight: bold;
   }
@@ -231,7 +232,7 @@ const props = defineProps(
 
   &-top-title {
     margin: 10px auto 0px;
-    padding: 0px 10px;
+    padding: 0px 10px 0px 32px;
     font-size: 28px;
   }
 
