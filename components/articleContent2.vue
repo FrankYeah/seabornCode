@@ -121,26 +121,26 @@ const props = defineProps(
   }
 
   &-top-img {
-    max-width: 1120px;
-    width: 100%;
+    max-width: 1100px;
+    width: calc(100% - 20px);
     margin: auto;
-    padding: 0px 10px;
+    padding: 0px 0px;
   }
 
   &-top-title {
     max-width: 1100px;
-    margin: 10px auto 30px;
+    margin: 30px auto 0px;
     padding: 0px 0px 0px 40px;
     font-size: 40px;
     font-weight: bold;
   }
 
   &-inner {
-    width: 100vw;
+    // width: 100vw;
     display: flex;
     justify-content: center;
-    padding: 0px 10px 0px;
-    margin: -1px auto 0px;
+    padding: 0px 0px 0px;
+    margin: -1px 10px 0px;
   }
 
   &-left {
@@ -227,11 +227,11 @@ const props = defineProps(
   }
 
   &-top-img {
-    padding: 30px 10px 0px;
+    padding: 30px 0px 0px;
   }
 
   &-top-title {
-    margin: 10px auto 0px;
+    margin: 20px auto 0px;
     padding: 0px 10px 0px 32px;
     font-size: 28px;
   }
@@ -247,7 +247,7 @@ const props = defineProps(
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin: 40px 0px 0px;
+    margin: 20px 0px 0px;
     padding: 30px 0px 30px;
 
     &-fix {
