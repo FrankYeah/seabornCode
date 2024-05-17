@@ -160,7 +160,7 @@
   }
 
   &-about {
-    // max-width: 1024px;
+    max-width: 1024px;
     position: relative;
     top: -150px;
     // width: 70vw;
@@ -187,11 +187,12 @@
   }
 
   &-contact {
-    width: 70vw;
+    max-width: 1024px;
+    // width: 70vw;
     height: 500px;
     display: flex;
     justify-content: center;
-    margin: -180px auto 50px;
+    margin: -140px auto 50px;
     padding: 300px 0px 0px;
     background-image: url('../assets/img/index/contact_bg.png');
     background-repeat: no-repeat;
@@ -237,7 +238,7 @@
 .index {
 
   &-vol {
-    padding: 100px 5px 100px;
+    padding: 100px 5px 30px;
     flex-wrap: wrap;
     justify-content: center;
 
@@ -307,7 +308,7 @@
     width: 95vw;
     height: 400px;
     flex-direction: column;
-    margin: 0px auto 50px;
+    margin: 10px auto 50px;
     padding: 50px 50px 0px;
     background-image: url('../assets/img/index/contact_bg_m.png');
 

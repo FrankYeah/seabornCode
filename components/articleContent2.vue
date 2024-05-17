@@ -121,9 +121,10 @@ const props = defineProps(
   }
 
   &-top-img {
-    max-width: 1100px;
+    max-width: 1120px;
     width: 100%;
     margin: auto;
+    padding: 0px 10px;
   }
 
   &-top-title {
@@ -143,7 +144,7 @@ const props = defineProps(
 
   &-left {
     max-width: 300px;
-    width: 30%;
+    // width: 30%;
     margin-top: 30px;
     padding: 80px 40px 40px;
     background-color: #999999;
@@ -201,7 +202,7 @@ const props = defineProps(
   &-right {
     position: relative;
     max-width: 800px;
-    width: 70%;
+    // width: 70%;
     margin-top: 30px;
     padding: 60px 80px 70px;
     border: 1px solid white;
