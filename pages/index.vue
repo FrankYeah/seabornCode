@@ -18,8 +18,8 @@
       <nuxt-link to="/vol-letter">
         <img class="index-vol-img" src="@/assets/img/letter/v5_cover2.png" alt="fb">
       </nuxt-link>
-      <nuxt-link to="/vol-flavor">
-        <img class="index-vol-img" src="@/assets/img/index/six.png" alt="fb">
+      <nuxt-link to="/vol-woman">
+        <img class="index-vol-img" src="@/assets/img/woman/v6_cover02.png" alt="fb">
       </nuxt-link>
       <nuxt-link to="/vol-travel">
         <img class="index-vol-img" src="@/assets/img/index/seven.png" alt="fb">
