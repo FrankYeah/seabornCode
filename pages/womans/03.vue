@@ -9,7 +9,7 @@
     `"
   >
 
-   <articleText :text="`臺灣可能僅有一位女性，可以有這樣傳奇的經歷。
+   <articleText :text="`臺灣可能僅有一位女性，可以有這樣傳奇的經歷。<br><br>
 
 她曾經在海軍服役 20 年，經歷過無數次保密的軍事行動，多次到友邦敦睦 (敦親睦鄰)，在知名的紀德級驅逐艦、成功級、諾克斯級巡防艦，以及拉法葉戰艦擔任要職，也是海軍參謀，最高任職海軍少校。<br><br>
 
@@ -74,7 +74,7 @@
 
     `" />
 
-    <articleImg :marginBottom="'10px'" :img="`img/woman/`" />
+    <articleImg :marginBottom="'10px'" :img="`img/woman/v6-03-05.jpg`" />
 
     <articleHint :text="`凡事親力親為的華珍，會與船員共進退
        `" />
@@ -90,9 +90,7 @@
 
     `" />
 
-    <articleImg :marginBottom="'0px'" :img="`img/woman/v6-03-05.jpg`" />
-
-    <articleImg :marginTop="'10px'" :marginBottom="'10px'" :img="`img/woman/v6-03-06.jpg`" />
+    <articleImg :marginBottom="'10px'" :img="`img/woman/v6-03-06.jpg`" />
 
     <articleHint :text="`長年帶兵的經歷，讓華珍訓練船員時駕輕就熟
        `" />
