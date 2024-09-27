@@ -37,6 +37,9 @@
             <nuxt-link to="/vol-woman">
               <div class="header-item-box-text">vol.06</div>
             </nuxt-link>
+            <nuxt-link to="/vol-eye">
+              <div class="header-item-box-text">vol.07</div>
+            </nuxt-link>
             <!-- <nuxt-link to="/book">
               <div class="header-item-box-text">書籍</div>
             </nuxt-link> -->

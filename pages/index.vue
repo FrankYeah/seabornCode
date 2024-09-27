@@ -21,8 +21,8 @@
       <nuxt-link to="/vol-woman">
         <img class="index-vol-img" src="@/assets/img/woman/v6_cover02.png" alt="fb">
       </nuxt-link>
-      <nuxt-link to="/vol-travel">
-        <img class="index-vol-img" src="@/assets/img/index/seven.png" alt="fb">
+      <nuxt-link to="/vol-eye">
+        <img class="index-vol-img" src="@/assets/img/eye/v7_cover2.png" alt="fb">
       </nuxt-link>
       <nuxt-link to="/vol-nation">
         <img class="index-vol-img" src="@/assets/img/index/eight.png" alt="fb">

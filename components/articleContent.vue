@@ -38,6 +38,7 @@
     <rotateNation v-if="props.type == 'nation'" style="background-color: #999;" class="article-rotate" />
     <rotateLetter v-if="props.type == 'letter'" style="background-color: #999;" class="article-rotate" />
     <rotateWoman v-if="props.type == 'woman'" style="background-color: #999;" class="article-rotate" />
+    <rotateEye v-if="props.type == 'eye'" style="background-color: #999;" class="article-rotate" />
   </div>
 </template>
 
