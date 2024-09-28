@@ -122,8 +122,8 @@
       
             `" />
 
-       <div class="article-right-text"
-    >參考影片：<a href="https://www.youtube.com/watch?v=jCdAykeCQb0" target="_blank" class="article-right-href" style="color: #9f9a9a; text-decoration: underline;">世紀偉大工程─巴拿馬運河</a>、<a href="https://www.youtube.com/watch?v=JJ-HoEXYIsI&t=1s" target="_blank" class="article-right-href" style="color: #9f9a9a; text-decoration: underline;">巴拿馬運河揭密</a></div><br><br>
+       <div class="article-special-text"
+    >參考影片：<a href="https://www.youtube.com/watch?v=jCdAykeCQb0" target="_blank" class="article-special-href" style="color: #9f9a9a; text-decoration: underline;">世紀偉大工程─巴拿馬運河</a>、<a href="https://www.youtube.com/watch?v=JJ-HoEXYIsI&t=1s" target="_blank" class="article-special-href" style="color: #9f9a9a; text-decoration: underline;">巴拿馬運河揭密</a></div><br><br>
 
        <articleTitle :title="`海洋的美，船員才看得到`" />
 
@@ -167,7 +167,7 @@
 
 <style lang="scss" scoped>
 
-.article-right-text {
+.article-special-text {
    margin-top: 0px;
    padding: 0px 40px;
    letter-spacing: 1.3px;
@@ -177,7 +177,7 @@
    font-size: 14px;
 }
 
-.article-right-href {
+.article-special-href {
    letter-spacing: 1.3px;
    line-height: 1.4;
    text-align: justify;
@@ -187,12 +187,12 @@
 
 @media( max-width: 1023px ){
 
-   .article-right-text {
+   .article-special-text {
       padding: 0px 12px;
       font-size: 14px;
    }
 
-   .article-right-href {
+   .article-special-href {
       font-size: 14px;
    }
 }
