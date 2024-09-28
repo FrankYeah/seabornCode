@@ -1,7 +1,7 @@
 <template>
   <articleContent2
     :type="`eye`"
-    :title="`巴拿馬運河<br>—全球知名、也是年輕船員的航行夢想`"
+    :title="`航行千帆<br>看見海洋的靈魂色`"
     :banner="'img/eye/v7_01_01cover.jpg'"
     :name="`
       文：葉奕緯<br>
@@ -97,7 +97,7 @@
        `" />
 
 
-       <articleTitle :title="`巴拿馬運河——全球知名、也是年輕船員的航行夢想`" />
+       <articleTitle :title="`巴拿馬運河—全球知名、<br>也是年輕船員的航行夢想`" />
 
 
        <articleText :text="`
@@ -122,15 +122,8 @@
       
             `" />
 
-       <div style="margin-top: 0px;
-        padding: 0px 40px;
-        letter-spacing: 1.3px;
-        line-height: 1.4;
-        text-align: justify;
-        color: #9f9a9a;
-        font-size: 14px;
-        "
-    >參考影片：<a href="https://www.youtube.com/watch?v=jCdAykeCQb0" target="_blank" style="color: #9f9a9a; text-decoration: underline;">世紀偉大工程─巴拿馬運河</a>、<a href="https://www.youtube.com/watch?v=JJ-HoEXYIsI&t=1s" target="_blank" style="color: #9f9a9a; text-decoration: underline;">巴拿馬運河揭密</a></div><br><br>
+       <div class="article-right-text"
+    >參考影片：<a href="https://www.youtube.com/watch?v=jCdAykeCQb0" target="_blank" class="article-right-href" style="color: #9f9a9a; text-decoration: underline;">世紀偉大工程─巴拿馬運河</a>、<a href="https://www.youtube.com/watch?v=JJ-HoEXYIsI&t=1s" target="_blank" class="article-right-href" style="color: #9f9a9a; text-decoration: underline;">巴拿馬運河揭密</a></div><br><br>
 
        <articleTitle :title="`海洋的美，船員才看得到`" />
 
@@ -174,17 +167,34 @@
 
 <style lang="scss" scoped>
 
-.article {
+.article-right-text {
+   margin-top: 0px;
+   padding: 0px 40px;
+   letter-spacing: 1.3px;
+   line-height: 1.4;
+   text-align: justify;
+   color: #9f9a9a;
+   font-size: 14px;
+}
 
+.article-right-href {
+   letter-spacing: 1.3px;
+   line-height: 1.4;
+   text-align: justify;
+   color: #9f9a9a;
+   font-size: 14px;
 }
 
 @media( max-width: 1023px ){
 
-.article {
+   .article-right-text {
+      padding: 0px 12px;
+      font-size: 14px;
+   }
 
-
-
-}
+   .article-right-href {
+      font-size: 14px;
+   }
 }
 
 </style>

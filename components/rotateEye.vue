@@ -94,7 +94,7 @@ onBeforeUnmount(() => {
 
 const articles = reactive([
   {
-    head: '巴拿馬運河—全球知名、也是年輕船員的航行夢想',
+    head: '航行千帆<br>看見海洋的靈魂色',
     text: '以前在學校裡，地理課本總會教導許多海洋知識',
     href: 'eyes/01',
     img: 'img/eye/v7_01_01cover.jpg'
