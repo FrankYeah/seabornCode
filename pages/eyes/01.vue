@@ -1,7 +1,7 @@
 <template>
   <articleContent2
     :type="`eye`"
-    :title="`航行千帆，看見海洋的靈魂色`"
+    :title="`巴拿馬運河<br>—全球知名、也是年輕船員的航行夢想`"
     :banner="'img/eye/v7_01_01cover.jpg'"
     :name="`
       文：葉奕緯<br>
@@ -119,8 +119,18 @@
     <articleImg :marginBottom="'10px'" :img="`img/eye/v7_01_07.jpg`" />
 
     <articleHint :text="`從白天工作到黑夜，航經人工運河是十分漫長的過程<br>
-參考影片：世紀偉大工程─巴拿馬運河、巴拿馬運河揭密
-       `" />
+      
+            `" />
+
+       <div style="margin-top: 0px;
+        padding: 0px 40px;
+        letter-spacing: 1.3px;
+        line-height: 1.4;
+        text-align: justify;
+        color: #9f9a9a;
+        font-size: 14px;
+        "
+    >參考影片：<a href="https://www.youtube.com/watch?v=jCdAykeCQb0" target="_blank" style="color: #9f9a9a; text-decoration: underline;">世紀偉大工程─巴拿馬運河</a>、<a href="https://www.youtube.com/watch?v=JJ-HoEXYIsI&t=1s" target="_blank" style="color: #9f9a9a; text-decoration: underline;">巴拿馬運河揭密</a></div><br><br>
 
        <articleTitle :title="`海洋的美，船員才看得到`" />
 
