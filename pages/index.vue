@@ -24,8 +24,8 @@
       <nuxt-link to="/vol-eye">
         <img class="index-vol-img" src="@/assets/img/eye/v7_cover2.png" alt="fb">
       </nuxt-link>
-      <nuxt-link to="/vol-nation">
-        <img class="index-vol-img" src="@/assets/img/index/eight.png" alt="fb">
+      <nuxt-link to="/vol-tide">
+        <img class="index-vol-img" src="@/assets/img/tide/seaborn08_cover2.png" alt="fb">
       </nuxt-link>
     </div>
 

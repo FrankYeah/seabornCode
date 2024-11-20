@@ -40,6 +40,9 @@
             <nuxt-link to="/vol-eye">
               <div class="header-item-box-text">vol.07</div>
             </nuxt-link>
+            <nuxt-link to="/vol-tide">
+              <div class="header-item-box-text">vol.08</div>
+            </nuxt-link>
             <!-- <nuxt-link to="/book">
               <div class="header-item-box-text">書籍</div>
             </nuxt-link> -->
