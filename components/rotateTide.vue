@@ -106,7 +106,7 @@ const articles = reactive([
     img: 'img/tide/v8_02_01cover.jpg'
   },
   {
-    head: '航運業的綠色改革，海大智航中心推動氫能及無人船發展',
+    head: '航運的綠色改革，海大智航中心推動氫能及無人船發展',
     text: '在全球氣候變暖，極端氣候加劇的當代，各國都開始重視減碳淨零',
     href: 'tides/03',
     img: 'img/tide/v8_03_01cover.jpg'

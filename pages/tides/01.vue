@@ -23,7 +23,7 @@
 
 <articleImg :marginBottom="'10px'" :img="`img/tide/v8_01_02.jpg`" />
 <articleHint :text="`圖片來源：Unsplash
-       `" />
+       `" /><br><br>
 
 <articleText :text="`
 在海洋帶來的眾多流行中，蘭姆（rum）酒的傳播與演變，可以說是最為經典的故事之一。蘭姆酒與海洋交織而來的傳奇，得從其原料甘蔗的傳播說起。<br><br>

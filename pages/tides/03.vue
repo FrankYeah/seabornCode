@@ -1,7 +1,7 @@
 <template>
   <articleContent2
     :type="`tide`"
-    :title="`航運業的綠色改革，海大智航中心推動氫能及無人船發展`"
+    :title="`航運的綠色改革，海大智航中心推動氫能及無人船發展`"
     :banner="'img/eye/v7_03_01cover.jpg'"
     :name="`
       文：葉奕緯<br>
@@ -40,7 +40,7 @@
     <articleImg :marginBottom="'10px'" :img="`img/tide/v8_03_03.jpg`" />
 
     <articleHint :text="`氫能不只來源不同，生產技術也有差異
-       `" />
+       `" /><br><br>
 
 
      <articleText :text="`
@@ -55,7 +55,7 @@
 
 
     <articleHint :text="`
-    上圖：「2050 淨零城市展」中，高聖龍主任為來賓解說使用氫燃料電池的自動販賣機<br>
+    上圖：高聖龍主任在「2050 淨零城市展」為來賓解說使用氫燃料電池的自動販賣機<br>
 下圖：無人自動駕駛船搭配海洋測繪技術，讓用途更加多元
 
        `" /> 
@@ -92,7 +92,7 @@
     <articleImg :marginBottom="'10px'" :img="`img/tide/v8_03_07.jpg`" />
 
     <articleHint :text="`海大智航中心不只著重研發，也致力於產業的接軌
-       `" /> 
+       `" /><br><br>
 
 
 <articleText :text="`
