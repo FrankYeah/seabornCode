@@ -2,7 +2,7 @@
   <articleContent2
     :type="`tide`"
     :title="`航運的綠色改革，海大智航中心推動氫能及無人船發展`"
-    :banner="'img/eye/v7_03_01cover.jpg'"
+    :banner="'img/tide/v8_03_01cover.jpg'"
     :name="`
       文：葉奕緯<br>
       圖：海大智航中心、樸實創意
