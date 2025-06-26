@@ -10,7 +10,7 @@ export default defineNuxtConfig({
     app: {
       baseURL: '/seaborn/',
       head: {
-        title: 'seaborn',
+        title: 'seaborn 季刊',
         meta: [
           { charset: 'utf-8' },
           { name: 'viewport', content: 'width=device-width, initial-scale=1' },

@@ -27,6 +27,9 @@
       <nuxt-link to="/vol-tide">
         <img class="index-vol-img" src="@/assets/img/tide/seaborn08_cover2.png" alt="fb">
       </nuxt-link>
+      <nuxt-link to="/vol-wind">
+        <img class="index-vol-img" src="@/assets/img/wind/seaborn09_cover2.png" alt="fb">
+      </nuxt-link>
     </div>
 
     <!-- <div id="acitivity" class="index-movie">

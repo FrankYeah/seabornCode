@@ -43,6 +43,9 @@
             <nuxt-link to="/vol-tide">
               <div class="header-item-box-text">vol.08</div>
             </nuxt-link>
+            <nuxt-link to="/vol-wind">
+              <div class="header-item-box-text">vol.09</div>
+            </nuxt-link>
             <!-- <nuxt-link to="/book">
               <div class="header-item-box-text">書籍</div>
             </nuxt-link> -->
