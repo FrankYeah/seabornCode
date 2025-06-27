@@ -47,7 +47,7 @@
    `" />
 
 
-<articleImg :marginBottom="'10px'" :img="`img/wind/v9_03_02.jpg`" />
+<articleImg :marginBottom="'10px'" :img="`img/wind/v9_03_03.jpg`" />
 
 
 
@@ -65,7 +65,7 @@
    `" />
 
 
-<articleImg :marginBottom="'10px'" :img="`img/wind/v9_03_02.jpg`" />
+<articleImg :marginBottom="'10px'" :img="`img/wind/v9_03_04.jpg`" />
 
 
 
@@ -81,7 +81,7 @@
    `" />
 
 
-<articleImg :marginBottom="'10px'" :img="`img/wind/v9_03_02.jpg`" />
+<articleImg :marginBottom="'10px'" :img="`img/wind/v9_03_05.jpg`" />
 
 
 

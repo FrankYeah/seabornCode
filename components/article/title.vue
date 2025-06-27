@@ -22,7 +22,7 @@ const props = defineProps(
 @media( max-width: 1023px ){
 
 .article-right-title {
-  margin: 20px 12px 0px;
+  margin: 60px 12px 0px;
   padding: 0px 0px;
   font-size: 20px;
 }

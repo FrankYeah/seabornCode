@@ -236,8 +236,9 @@ const props = defineProps(
 
   &-top-title {
     margin: 20px auto 0px;
-    padding: 0px 10px 0px 32px;
+    padding: 0px 10px 0px 10px;
     font-size: 28px;
+    text-align: justify;
   }
 
   &-inner {
