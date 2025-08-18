@@ -4,8 +4,7 @@
     :title="`流轉的真摯故鄉：<br>永遠是基隆人`"
     :banner="'img/direction/v10_01_01cover.jpg'"
     :name="`
-      文：袁朝露<br>
-      圖：袁朝露
+      文‧圖 / 袁朝露
     `"
   >
   <!-- <br><br> -->
