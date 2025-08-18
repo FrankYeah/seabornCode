@@ -97,7 +97,7 @@
     margin: auto;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-evenly;
+    gap: 8px;
     align-items: center;
 
     &-img {

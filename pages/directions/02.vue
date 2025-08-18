@@ -25,7 +25,7 @@
 
    <articleTitle :title="`第一次跟隨帆船出海，繞基隆嶼追海風`" />
 
-<articleImg :marginBottom="'10px'" :img="`img/direction/v10_02_01cover.jpg`" />
+<articleImg :marginBottom="'10px'" :img="`img/direction/v10_02_02.jpg`" />
 
 <articleText :text="`
 台琉國際帆船賽共有三條比賽航道，分別是基隆嶼繞島賽、台灣基隆-日本宮古島越洋賽和宮古島場地賽。今年共35艘船隊參賽，近300位選手齊聚潮境海灣展開角逐，其中也有來自日本、美國、加拿大、智利等國選手參與。2025年是台琉國際帆船賽的第21年頭，不僅是台琉兩地交流的平台，也成為國際帆船運動的盛事。<br><br>
@@ -39,7 +39,7 @@
 
    `" />
 
-<articleImg :marginBottom="'10px'" :img="`img/direction/v10_02_02.jpg`" />
+<articleImg :marginBottom="'10px'" :img="`img/direction/v10_02_03.jpg`" />
 
 
 <articleTitle :title="`在大海中，體會渺小與臣服`" />
@@ -55,7 +55,7 @@
 
    `" />
 
-<articleImg :marginBottom="'10px'" :img="`img/direction/v10_02_03.jpg`" />
+<articleImg :marginBottom="'10px'" :img="`img/direction/v10_02_04.jpg`" />
 
 
 <articleTitle :title="`馭風而行，一場與自我連結的航海之旅`" />
@@ -66,8 +66,8 @@
 
    `" />
 
-<articleImg :marginBottom="'10px'" :img="`img/direction/v10_02_04.jpg`" />
 <articleImg :marginBottom="'10px'" :img="`img/direction/v10_02_05.jpg`" />
+<articleImg :marginBottom="'10px'" :img="`img/direction/v10_02_06.jpg`" />
 
 
 <articleText :text="`
@@ -80,7 +80,7 @@
 
    `" />
 
-<articleImg :marginBottom="'10px'" :img="`img/direction/v10_02_06.jpg`" />
+<articleImg :marginBottom="'10px'" :img="`img/direction/v10_02_07.jpg`" />
 
 <articleTitle :title="`感受海風，再次拉近與海的距離`" />
 
@@ -97,7 +97,7 @@
 
    `" />
 
-<articleImg :marginBottom="'10px'" :img="`img/direction/v10_02_07.jpg`" />
+<articleImg :marginBottom="'10px'" :img="`img/direction/v10_02_08.jpg`" />
 
 
 

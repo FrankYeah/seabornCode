@@ -47,7 +47,7 @@
               <div class="header-item-box-text">vol.09</div>
             </nuxt-link>
             <nuxt-link to="/vol-direction">
-              <div class="header-item-box-text">vol.09</div>
+              <div class="header-item-box-text">vol.10</div>
             </nuxt-link>
             <!-- <nuxt-link to="/book">
               <div class="header-item-box-text">書籍</div>
