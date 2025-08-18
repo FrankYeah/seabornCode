@@ -30,6 +30,9 @@
       <nuxt-link to="/vol-wind">
         <img class="index-vol-img" src="@/assets/img/wind/seaborn09_cover2.png" alt="fb">
       </nuxt-link>
+      <nuxt-link to="/vol-direction">
+        <img class="index-vol-img" src="@/assets/img/direction/seaborn10_cover2.png" alt="fb">
+      </nuxt-link>
     </div>
 
     <!-- <div id="acitivity" class="index-movie">
@@ -94,7 +97,7 @@
     margin: auto;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-items: center;
 
     &-img {

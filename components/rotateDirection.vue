@@ -104,7 +104,7 @@ const articles = reactive([
     text: '我站在船緣，望向遠處大大小小的帆，好似定格在海面上，手舉高想確認─是，現在沒有風',
     href: 'directions/02',
     img: 'img/direction/v10_02_01cover.jpg'
-  }
+  },
 ])
 
 </script>
