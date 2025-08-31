@@ -28,6 +28,12 @@ const articles = reactive([
     href: 'directions/02',
     img: 'img/direction/v10_02_01cover.jpg'
   },
+  {
+    head: '走境171：一段走進鷄籠中元祭的巴士旅程',
+    text: '農曆七月是基隆人每年最忙碌的一個月份，不只是家家戶戶忙著家中的小普度，整座城市都在為一年一度的「鷄籠中元祭」忙得不可開交',
+    href: 'directions/03',
+    img: 'img/direction/v10_03_01cover.jpg'
+  },
 ])
 
 </script>
