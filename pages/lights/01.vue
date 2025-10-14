@@ -88,7 +88,7 @@
        `" />
 
 
-       <articleTitle :title="`結論：在記憶的廢墟上，重建人文的橋`" />
+       <articleTitle :title="`在記憶的廢墟上，重建人文的橋`" />
 
 
 <articleText :text="`
