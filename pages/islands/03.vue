@@ -4,8 +4,9 @@
     :title="`從群島記憶的碎片<br>編織風景`"
     :banner="'img/island/v12_03_01cover.jpg'"
     :name="`
-      文：黃韋智<br>
-      圖：涂佳豪、黃韋智、雅布重
+    文.圖/ <br>
+   波多野想（小波）：日本國立琉球大學島嶼地域科學研究所　教授<br>
+   王騰崇（Samuel）：山廟共感設計製造所 Samuel Production 主理人
     `"
   >
 
