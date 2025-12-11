@@ -43,6 +43,7 @@
     <rotateWind v-if="props.type == 'wind'" style="background-color: #999;" class="article-rotate" />
     <rotateDirection v-if="props.type == 'direction'" style="background-color: #999;" class="article-rotate" />
     <rotateLight v-if="props.type == 'light'" style="background-color: #999;" class="article-rotate" />
+    <rotateIsland v-if="props.type == 'island'" style="background-color: #999;" class="article-rotate" />
   </div>
 </template>
 

@@ -36,6 +36,9 @@
       <nuxt-link to="/vol-light">
         <img class="index-vol-img" src="@/assets/img/light/v11_cover2.png" alt="fb">
       </nuxt-link>
+      <nuxt-link to="/vol-island">
+        <img class="index-vol-img" src="@/assets/img/island/v12_00cover2.png" alt="fb">
+      </nuxt-link>
     </div>
 
     <!-- <div id="acitivity" class="index-movie">

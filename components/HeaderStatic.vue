@@ -52,6 +52,10 @@
             <nuxt-link to="/vol-light">
               <div class="header-item-box-text">vol.11</div>
             </nuxt-link>
+
+            <nuxt-link to="/vol-island">
+              <div class="header-item-box-text">vol.12</div>
+            </nuxt-link>
             <!-- <nuxt-link to="/book">
               <div class="header-item-box-text">書籍</div>
             </nuxt-link> -->
